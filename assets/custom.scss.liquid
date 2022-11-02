@@ -1,0 +1,233 @@
+.featured-product-with-email {
+  max-width: 1200px;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  padding-top: 60px;
+  
+  .daily-deal-wrapper {
+    width: calc(33.33333% - 20px);
+    background-color: rgb(244, 244, 244);
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 20px;
+    
+    .tagline {
+      font-family: Montserrat, sans-serif;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: 500;
+      letter-spacing: 1px;
+    }
+    
+    h3 {
+      font-weight: bold;
+      font-size: 25px;
+    }
+    
+    .daily-deal {
+      margin-top: 10px;
+      padding: 20px;
+      background: white;
+      display: flex;
+      flex-direction: column;
+      
+      .dd-img-wrapper a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        img {
+          width: 65%;
+        } 
+      }
+      
+      .product-title {
+        font-weight: bold;
+        margin-top: 10px;
+      }
+      
+      .price-wrapper {
+        display: flex;
+        flex-direction: row;
+        
+        .product-price {
+          font-family: Montserrat, sans-serif;
+          font-weight: bold;
+          color: black;
+          opacity: 1;
+          
+          &.original-price {
+            text-decoration: line-through; 
+          }
+          
+          &.sale-price {
+            color: rgb(153, 198, 70);
+            margin-left: 10px;
+            
+            &.is-alone {
+              margin-left: 0;
+            }
+          }
+        }
+      }
+      
+      .product-atc-btn {
+        margin-top: 10px;
+        font-family: Montserrat, sans-serif;
+        text-transform: uppercase;
+        font-size: 1rem;
+        background-color: rgb(153, 198, 70);
+        color: white;
+        padding: 10px;
+        text-align: center;
+        font-weight: 500;
+        letter-spacing: 1px;
+        cursor: pointer;
+        transition: background-color 0.2s ease-in-out;
+        
+        &:hover {
+          background-color: #94b94a;
+        }
+      }
+    }
+  }
+  
+  .email-cap-half {
+    width: calc(66.66666% - 20px);
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    .email-capture {
+      width: 100%;
+      background-position: center center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      padding: 20px;
+      margin-bottom: 10px;
+      display: flex;
+      flex: 1;
+
+      .newsletter__wrapper {
+        padding: 20px 40px;
+        width: 100%;
+        max-width: 100%;
+        
+        .field {
+          margin-bottom: 0;
+        }
+
+        .newsletter__heading {
+          font-weight: 500;
+          font-size: 32px;
+          margin-bottom: 5px;
+        }
+        
+        .newsletter__subheading {
+          margin-bottom: 0;
+          font-size: 18px;
+        }
+      }
+
+      .email-top-half {
+        flex: 1;
+        background-color: rgba(255, 255, 255, 0.5);
+        
+        .is-horizontal {
+          display: flex; 
+          flex-direction: row; 
+          width: 100%; 
+        }
+      }
+    }
+    
+    .half-coll {
+      position: relative;
+      flex: 1;
+      margin-top: 10px;
+      background-position: center center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+      a.cta-btn {
+        text-decoration: none;
+        font-family: Montserrat, sans-serif;
+        text-transform: uppercase;
+        font-size: 1rem;
+        background-color: #28323b;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        font-weight: 500;
+        letter-spacing: 1px;
+        transition: background-color 0.2s ease-in-out;
+      }
+    }
+  }
+  
+  @media screen and (max-width: 798px) {
+    flex-direction: column;
+    
+    .daily-deal-wrapper {
+      width: calc(100% - 20px);
+    }
+    
+    .email-cap-half {
+      width: calc(100% - 20px);
+      height: 600px;
+      margin-top: 20px;
+      
+      .newsletter__wrapper {
+        padding: 15px!important;
+        
+        .newsletter__text-wrapper {
+          width: 100%!important;
+        }
+        
+        .field {
+          width: 100%!important;
+          margin-top: 10px;
+        }
+      }
+      
+      .email-top-half {
+       .is-horizontal {
+          flex-direction: column!important; 
+        } 
+      }
+    }
+  }
+}
+
+.featured-promotions__title {
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.ss-hide-on-desktop {
+  @media screen and (min-width: 798px) {
+    display: none;
+  }
+}
+
+.ss-center-on-mobile {
+  @media screen and (max-width: 798px) {
+    text-align: center; 
+  }
+}
+
+.ss-full-width {
+  width: 100%;
+}
+.container form .selector-wrapper:not(.webyzeSwatches_wrapper) {
+  display:none !important;
+}

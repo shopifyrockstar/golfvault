@@ -1,0 +1,138 @@
+{% assign product = all_products[section.settings.product] %}
+
+{% if product.available %}
+<section class="featured-product-with-email">
+  <div class="daily-deal-wrapper">
+    <span class="tagline">{{ section.settings.deal_tagline }}</span>
+    <h3>{{ section.settings.deal_headline }}</h3>
+    <div class="daily-deal">
+      <div class="dd-img-wrapper">
+        <a href="{{ product.url }}">
+          <img src="{{ product.featured_image | img_url: "master" }}" />
+        </a>
+      </div>
+      <span class="product-title">{{ product.title }}</span>
+      <div class="price-wrapper">
+        {% if product.first_available_variant.compare_at_price != blank %}
+        <span class="product-price original-price">{{ product.compare_at_price_max  | money }}</span>
+        <span class="product-price sale-price">Now {{ product.first_available_variant.price | money }}</span>
+        {% else %}
+        <span class="product-price sale-price is-alone">{{ product.first_available_variant.price | money }}</span>
+        {% endif %}
+      </div>
+      <a href="{{ product.url }}" class="product-atc-btn">{{ section.settings.deal_cta_btn_text }}</a>
+    </div>
+  </div>
+  <div class="email-cap-half">
+    <div class="email-capture" style="background-image: url('{{ section.settings.sub_box_bg | img_url: "master" }}');">
+      <div class="email-top-half">
+        <div class="newsletter-container is-flex">
+          <div class="newsletter__wrapper column">
+            <div class="newsletter__text-wrapper text-align-center">
+              <h2 class="newsletter__heading newsletter__text title">{{ section.settings.sub_headline }}</h2>
+              <div class="newsletter__subheading newsletter__text">{{ section.settings.sub_tagline }}</div>
+            </div>
+            {% assign horizontal = true %}
+            {% assign isBold = true %}
+            {% include 'newsletter-form' with isBold, ctaText: section.settings.sub_cta_btn_text %}
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="half-coll" style="background-image: url('{{ section.settings.extra_box_img | img_url: "master" }}');">
+      <a class="cta-btn" href="{{ section.settings.extra_btn_link }}">
+        {{ section.settings.extra_btn_txt }}
+      </a>
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{% schema %}
+  {
+    "name": "Featured product w/ email",
+    "settings": [
+        {
+          "type": "header",
+          "content": "Deal card"
+        },
+		{
+          "type": "product",
+          "id": "product",
+          "label": "Product"
+		},
+		{
+          "type": "text",
+          "id": "deal_tagline",
+          "label": "Deal Tagline",
+		  "default": "From the Vault"
+		},
+		{
+          "type": "text",
+          "id": "deal_headline",
+          "label": "Deal Headline",
+		  "default": "Today's Deal"
+		},
+		{
+          "type": "text",
+          "id": "deal_cta_btn_text",
+          "label": "CTA Button Text",
+		  "default": "Add to Cart"
+		},
+		{
+          "type": "header",
+          "content": "Subscribe card"
+        },
+		{
+          "type": "image_picker",
+          "id": "sub_box_bg",
+          "label": "Subscribe box background image"
+		},
+		{
+          "type": "text",
+          "id": "sub_headline",
+          "label": "Subscribe Tagline",
+		  "default": "Subscribe"
+		},
+		{
+          "type": "text",
+          "id": "sub_tagline",
+          "label": "Subscribe Headline",
+		  "default": "Subscribe and get the daily deals right to your inbox"
+		},
+		{
+          "type": "text",
+          "id": "sub_cta_btn_text",
+          "label": "CTA Button Text",
+		  "default": "Sign up"
+		},
+		{
+          "type": "header",
+          "content": "Extra link Image"
+        },
+		{
+          "type": "image_picker",
+          "id": "extra_box_img",
+          "label": "Extra link background image"
+		},
+		{
+          "type": "text",
+          "id": "extra_btn_txt",
+          "label": "CTA Button Text",
+		  "default": "Shop Golf Balls"
+		},
+		{
+          "type": "text",
+          "id": "extra_btn_link",
+          "label": "Link",
+		  "default": "https://golf-vault-ca.myshopify.com/collections/all"
+		}
+	]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

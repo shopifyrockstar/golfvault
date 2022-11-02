@@ -1,0 +1,2993 @@
+{
+  "current": {
+    "nav_font_style": "uppercase",
+    "logo__font": "open_sans_n4",
+    "disqus_shortname": "",
+    "button__font": "montserrat_n5",
+    "show_popup": false,
+    "mobile_menu_link_hover_color": "rgba(0,0,0,0)",
+    "heading_color": "#000000",
+    "dropdown_link_color": "#000000",
+    "footer_link_color": "#ffffff",
+    "banner_staffpick": "#222222",
+    "dropdown_font_style": "none",
+    "dropdown_position": "below-parent",
+    "quickshop_magnify_images": false,
+    "dropdown_link_hover_color": "#007ace",
+    "heading__font": "montserrat_n4",
+    "display_special_instructions": true,
+    "mobile_sidebar_position": "below",
+    "header_link_color": "#272727",
+    "button_secondary_bg_color--highlight": "#28323b",
+    "collection_swatches": false,
+    "qty_background_hover_color": "#222",
+    "email_link": "",
+    "link_hover_color": "#94b94a",
+    "checkout_accent_color": "#a0cc4a",
+    "subheading_font": "montserrat_n6",
+    "button_primary_border_color--highlight": "rgba(0,0,0,0)",
+    "button_primary_border_color": "rgba(0,0,0,0)",
+    "logo_mobile_position": "center",
+    "checkout_logo_size": "large",
+    "enable_shopify_review_comments": false,
+    "linkedin_link": "",
+    "search_placeholder": "What are you looking for?",
+    "button_secondary_text_color--highlight": "#ffffff",
+    "button_secondary_border_color": "#28323b",
+    "button_cart_padding": "regular",
+    "icon": "icon_solid",
+    "notify_me_form": false,
+    "button_secondary_bg_color": "rgba(0,0,0,0)",
+    "search_menu": "",
+    "button_cart_text_color--highlight": "#fff",
+    "preheading_font": "montserrat_n4",
+    "tag_style": "solid",
+    "quickshop_button_style": "button--secondary",
+    "breadcrumb_separator": "arrow",
+    "mobile_menu_background_color": "rgba(0,0,0,0)",
+    "button_secondary_bg_color_transparency": 0,
+    "table_styles_enabled": true,
+    "button_cart_icon": "",
+    "shop_bg_color": "#ffffff",
+    "show_dynamic_checkout_button": false,
+    "display_heading_divider": true,
+    "product_layout": "classic",
+    "cart_message": "",
+    "button_secondary_border_color--highlight": "#28323b",
+    "button_primary_text_color": "#ffffff",
+    "button_secondary_border_radius": 0,
+    "checkout_body_background_image": "",
+    "footer_link_hover_color": "#000000",
+    "heading_size": 24,
+    "product_form_style": "swatches",
+    "nav__font": "source_sans_pro_n4",
+    "dropdown_letter_spacing": 0,
+    "footer_heading_font_size": 18,
+    "qty_background_color": "#000",
+    "default_currency": "CAD",
+    "footer_background": "#28323b",
+    "show_product_gallery_thumbnails": true,
+    "button_link_underline_style": "solid",
+    "twitter_link": "",
+    "button_primary_bg_color": "#465c6f",
+    "regular__font": "source_sans_pro_n4",
+    "free_price_text": "Free",
+    "banner_new": "#007ace",
+    "dropdown_background": "#ffffff",
+    "subheading_style": "uppercase",
+    "enable_shopify_collection_badges": false,
+    "supported_currencies": "",
+    "heading_font_style": "none",
+    "search_option": "everything",
+    "cart_icon": "cart",
+    "mlvedaACS_messageContent": "<<shop.name>> process all orders in <<shop.currency>>. While the content of your cart is currently displayed in <<shop.selected_currency>>, you will checkout using <<shop.currency>> at the most current exchange rate.",
+    "show_secondary_image": false,
+    "instagram_link": "",
+    "tab_style": "underline",
+    "checkout_body_background_color": "#fff",
+    "checkout_sidebar_background_image": "",
+    "display_tos_checkbox": false,
+    "tos_page": "",
+    "mega_menu_9": true,
+    "show_search_icon_mobile": true,
+    "mega_menu_8": true,
+    "mega_menu_7": true,
+    "search_title": "Search",
+    "mega_menu_6": true,
+    "preheading_size": 17,
+    "mega_menu_5": true,
+    "icon_style": "icons",
+    "mega_menu_4": true,
+    "mlvedaACS_positionTop": "10px",
+    "mega_menu_3": true,
+    "nav_font_size": 14,
+    "qty_border_radius": 0,
+    "dropdown_style": "vertical",
+    "enable_quickshop": false,
+    "sections": {
+      "16498756719bd07036": {
+        "settings": {
+          "display_last_name": false,
+          "newsletter_title": "<b>SUBSCRIBE<\/b>",
+          "padding_top": 0,
+          "newsletter_section_text_align": "center",
+          "image_position": "left",
+          "custom_css": "",
+          "animation": "none",
+          "background_image": "shopify:\/\/shop_images\/Home.jpg",
+          "css_class": "",
+          "image_cropping": "center",
+          "padding_left": 0,
+          "image_darken": true,
+          "background_color": "#a0cc4a",
+          "display_first_name": false,
+          "newsletter_richtext": "<p>Subscribe to get weekly deals right to your inbox, plus contests & exclusive offers<\/p>",
+          "width": "wide",
+          "text_color": "#ffffff",
+          "padding_bottom": 0,
+          "padding_right": 0
+        },
+        "type": "index__newsletter"
+      },
+      "collection__banner": {
+        "settings": {
+          "css_class": "",
+          "show_banner": false,
+          "image_darken": false,
+          "banner_height": "medium",
+          "subtitle": "Subheading",
+          "width": "wide",
+          "padding_top": 0,
+          "custom_css": "",
+          "padding_bottom": 0
+        },
+        "type": "collection__banner"
+      },
+      "header-classic": {
+        "settings": {
+          "show_text_shadow": false,
+          "overlay_link_color": "rgba(0,0,0,0)",
+          "icon_style": "icons",
+          "overlay_link_hover_color": "rgba(0,0,0,0)",
+          "enable_sticky": true,
+          "vertical_alignment": "center",
+          "overlay_logo_width": 80,
+          "custom_css": "",
+          "main_linklist": "main-menu",
+          "overlay_background": "rgba(0,0,0,0)",
+          "css_class": "",
+          "sticky_background_opacity": 50,
+          "menu_alignment": "center",
+          "overlay_background_opacity": 0,
+          "width": "standard",
+          "logo": "",
+          "scroll_logo_width": 80,
+          "display_search": true,
+          "enable_overlay": false,
+          "logo_width": 200,
+          "overlay_logo": ""
+        },
+        "type": "header-classic"
+      },
+      "323cbac1-ed05-4a8e-a081-c6f8c06d1c7f": {
+        "settings": {
+          "css_class": "",
+          "width": "standard",
+          "show_gutter": true,
+          "padding_top": 20,
+          "custom_css": "",
+          "padding_bottom": 20,
+          "animation": "none"
+        },
+        "blocks": {
+          "323cbac1-ed05-4a8e-a081-c6f8c06d1c7f-16673192191c97737c-2": {
+            "settings": {
+              "button_style": "button--primary",
+              "background": "rgba(0,0,0,0)",
+              "link": "",
+              "text": "<p>Golf Vault was founded in 2012 by PGA of Canada member Dave Roy.  In the beginning, a desire for some added income and something more to do in the winter, lead to listing an Odyssey PT 82 Phil Mickelson putter on eBay.  After a successful first sale, the company was on its way to being one of Canada’s top e-commerce golf stores.  We now offer top products from popular brands such as Footjoy, Cobra, Callaway, Taylormade, Titleist, Mizuno & more.  We still sell on eBay and have many products on Amazon.<\/p><p>At the begginning of 2022, we opened a physical retail store in Kitchener, Ontario. We wanted to provide a space for our customers to come and see our products and offer a chance for them to ask us questions. Within the store, we have a simulator bay powered by Trackman Technology where we conduct club fittings, golf lessons, and personal practice sessions. These one on one fittings and lessons are taught by PGA of Canada Members Jack McCarthy and Dave Roy.<\/p><p>Our goal is to provide our customers with exceptional customer service, unbeatable prices, a quick and easy shopping experience, super-fast shipping and helpful after-purchase support.  We help with any issues that arise, including manufacturer’s warranties. <\/p>",
+              "button_label": "",
+              "text_color": "rgba(0,0,0,0)",
+              "vertical_position": "center",
+              "title": "About Us",
+              "alignment": "center",
+              "heading_size": "large"
+            },
+            "type": "text"
+          }
+        },
+        "type": "index__image-with-text",
+        "block_order": [
+          "323cbac1-ed05-4a8e-a081-c6f8c06d1c7f-16673192191c97737c-2"
+        ]
+      },
+      "search__sidebar": {
+        "settings": {
+          "css_class": "",
+          "custom_css": "",
+          "show_sidebar": false
+        },
+        "blocks": {
+          "search__sidebar-1": {
+            "settings": {
+              "menu": ""
+            },
+            "type": "menu"
+          },
+          "search__sidebar-2": {
+            "settings": {
+              "text": "<p>Text area can be used for details about blog authors or general information.<\/p>",
+              "title": "Heading"
+            },
+            "type": "text"
+          },
+          "search__sidebar-0": {
+            "settings": {
+              "promo_text": "#000000",
+              "button_style": "button--primary",
+              "promo_background": "#EEEEEE",
+              "richtext": "<p>Use this area for promotional information.<\/p>",
+              "button_label": "Shop now"
+            },
+            "type": "featured_promo"
+          }
+        },
+        "type": "search__sidebar",
+        "block_order": [
+          "search__sidebar-0",
+          "search__sidebar-1",
+          "search__sidebar-2"
+        ]
+      },
+      "mega-menu-1": {
+        "settings": {
+          "mega_menu_text_color": "#404040",
+          "mega_menu_background_color": "#ffffff",
+          "custom_css": ".mega-menu{font-size: 14px;}",
+          "bottom_banner_bg": "#007ace",
+          "parent_link": "Clubs",
+          "enable_mega_menu_border": false,
+          "css_class": ".mega-menu",
+          "bottom_banner_text": "#efefef",
+          "size": "regular",
+          "mega_bottom_bar_text": "Add your deal, information or promotional text",
+          "show_mega_bottom_bar": false,
+          "mega_bottom_bar_icon": "",
+          "mega_bottom_bar_link": ""
+        },
+        "blocks": {
+          "1583167440077": {
+            "settings": {
+              "menu_1": "clubs-3-hidden",
+              "menu_1_hidden": true,
+              "menu_1_link": ""
+            },
+            "type": "menu"
+          },
+          "1583166903532": {
+            "settings": {
+              "menu_1": "clubs-1-hidden",
+              "menu_1_hidden": true,
+              "menu_1_link": ""
+            },
+            "type": "menu"
+          },
+          "mega-menu-1-1": {
+            "settings": {
+              "image": "shopify:\/\/shop_images\/M2_Fairway.jpg",
+              "promo_link": "shopify:\/\/collections\/clearance-clubs",
+              "button_style": "button--primary",
+              "bgr_color": "#eeeeee",
+              "button_bg_color": "#a0cc4a",
+              "richtext": "<p>Check every week for new clearance items and receive up to 50% off<\/p>",
+              "text_color": "#000000",
+              "button_label": "Shop Clearance"
+            },
+            "type": "featured_promo"
+          },
+          "mega-menu-1-0": {
+            "settings": {
+              "menu_1": "clubs",
+              "menu_1_hidden": false,
+              "menu_1_link": "shopify:\/\/collections\/clubs"
+            },
+            "type": "menu"
+          },
+          "1583166891721": {
+            "settings": {
+              "menu_1": "clubs-2-hidden",
+              "menu_1_hidden": true,
+              "menu_1_link": ""
+            },
+            "type": "menu"
+          }
+        },
+        "type": "mega-menu-1",
+        "block_order": [
+          "mega-menu-1-0",
+          "1583166903532",
+          "1583166891721",
+          "1583167440077",
+          "mega-menu-1-1"
+        ]
+      },
+      "mega-menu-2": {
+        "settings": {
+          "mega_menu_text_color": "#404040",
+          "mega_menu_background_color": "#ffffff",
+          "custom_css": ".mega-menu{font-size: 14px;}",
+          "bottom_banner_bg": "#007ace",
+          "parent_link": "Balls",
+          "enable_mega_menu_border": false,
+          "css_class": ".mega-menu",
+          "bottom_banner_text": "#efefef",
+          "size": "regular",
+          "mega_bottom_bar_text": "Add your deal, information or promotional text",
+          "show_mega_bottom_bar": false,
+          "mega_bottom_bar_icon": "",
+          "mega_bottom_bar_link": ""
+        },
+        "blocks": {
+          "1585057394880": {
+            "settings": {
+              "menu_1": "balls-1",
+              "menu_1_hidden": true,
+              "menu_1_link": "shopify:\/\/collections\/balls"
+            },
+            "type": "menu"
+          },
+          "1583441548846": {
+            "settings": {
+              "richtext_bottom": "",
+              "featured_product": "titleist-pro-v1-golf-balls-1"
+            },
+            "type": "featured_product"
+          },
+          "mega-menu-2-1": {
+            "settings": {
+              "image": "shopify:\/\/shop_images\/golfball_2abeab18-bb5a-4b1c-bfbb-de4926bbe760.png",
+              "promo_link": "shopify:\/\/collections\/clearance-balls",
+              "button_style": "button--primary",
+              "bgr_color": "#eeeeee",
+              "button_bg_color": "#a0cc4a",
+              "richtext": "<p>Check every week for new clearance items and receive up to 50% off<\/p>",
+              "text_color": "#000000",
+              "button_label": "Shop Clearance"
+            },
+            "type": "featured_promo"
+          },
+          "mega-menu-2-0": {
+            "settings": {
+              "menu_1": "balls",
+              "menu_1_hidden": false,
+              "menu_1_link": "shopify:\/\/collections\/balls"
+            },
+            "type": "menu"
+          }
+        },
+        "type": "mega-menu-2",
+        "block_order": [
+          "mega-menu-2-0",
+          "1585057394880",
+          "1583441548846",
+          "mega-menu-2-1"
+        ]
+      },
+      "1557099047693": {
+        "settings": {
+          "button_2_style": "button--secondary",
+          "heading_color": "#28323b",
+          "link": "https:\/\/golfvault.com\/collections\/2022-demo-club-sale",
+          "button_2_link": "",
+          "custom_css": ".image-with-text-overlay__heading.banner__heading span {\nfont-size: 1em;\n}",
+          "title": "ALL 2022 Demo Drivers & Fairway Woods Marked Down",
+          "mobile_image_crop": "center",
+          "heading_color_mobile": "rgba(0,0,0,0)",
+          "button_2": "",
+          "button_1": "Shop Now",
+          "subheading_color_mobile": "rgba(0,0,0,0)",
+          "pretext": "",
+          "mobile_image": "shopify:\/\/shop_images\/Untitled_design_2__png.jpg",
+          "button_1_link": "https:\/\/golfvault.com\/collections\/2022-demo-club-sale",
+          "padding_bottom": 0,
+          "padding_right": 0,
+          "image": "shopify:\/\/shop_images\/Untitled_design_2__png_98051922-ac34-4e8f-8377-f1d2eec8e45c.jpg",
+          "border_width": 3,
+          "pretext_color": "#000000",
+          "button_1_style": "button--primary",
+          "text_alignment": "center",
+          "mobile_text_below_image": false,
+          "padding_top": 0,
+          "border_color": "#465c6f",
+          "animation": "none",
+          "subheading_color": "#28323b",
+          "css_class": "",
+          "padding_left": 0,
+          "pretext_color_mobile": "rgba(0,0,0,0)",
+          "background_color": "#ffffff",
+          "text_horizontal_position": "center",
+          "text_width": 40,
+          "subtitle": "<p>Shop gently-used demo clubs from top brands like Callaway, Cobra, TaylorMade, Titleist, Mizuno, Srixon and Wilson!<\/p>",
+          "width": "wide",
+          "background_opacity": 77,
+          "text_vertical_position": "middle"
+        },
+        "type": "index__image-with-text-overlay"
+      },
+      "product__recommendations": {
+        "settings": {
+          "collection_height": 250,
+          "show_product_recommendations": false,
+          "recommended_products_limit": 4,
+          "product_recommendations_heading": "Other golfers like",
+          "products_per": 4,
+          "align_height": true,
+          "product_recommendations_style": "grid"
+        },
+        "type": "product__recommendations"
+      },
+      "16642874402284b629": {
+        "settings": {
+          "gradient": "rgba(0,0,0,0)",
+          "logo_size": "large",
+          "padding_top": 0,
+          "custom_css": "",
+          "animation": "none",
+          "css_class": "",
+          "padding_left": 0,
+          "background": "rgba(0,0,0,0)",
+          "width": "wide",
+          "logos_per_row": 8,
+          "gradient_rotation": 0,
+          "padding_bottom": 0,
+          "padding_right": 0
+        },
+        "blocks": {
+          "16642874402284b629-3": {
+            "settings": {
+              "image": "shopify:\/\/shop_images\/cobra-golf-vector-logo-2022.png",
+              "link": "shopify:\/\/collections\/cobra"
+            },
+            "type": "logo_image"
+          },
+          "16642874402284b629-2": {
+            "settings": {
+              "image": "shopify:\/\/shop_images\/taylormade.png",
+              "link": "shopify:\/\/collections\/taylormade"
+            },
+            "type": "logo_image"
+          },
+          "16642874402284b629-1": {
+            "settings": {
+              "image": "shopify:\/\/shop_images\/footjoy-logo-brandlogos.net_-1.png",
+              "link": "shopify:\/\/collections\/footjoy"
+            },
+            "type": "logo_image"
+          },
+          "16642874402284b629-0": {
+            "settings": {
+              "image": "shopify:\/\/shop_images\/25000.png",
+              "link": "shopify:\/\/collections\/under-armour"
+            },
+            "type": "logo_image"
+          },
+          "e98471bc-0724-4005-a9c4-ce550d531f27": {
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Titleist_logo.svg_4ca1e57d-8bab-4f72-940d-dd7e42775824.png",
+              "link": "shopify:\/\/collections\/titleist"
+            },
+            "type": "logo_image"
+          },
+          "6ff616a3-165e-4c7b-8c04-92280d364313": {
+            "settings": {
+              "image": "shopify:\/\/shop_images\/1519856531413.jpg",
+              "link": "shopify:\/\/collections\/callaway"
+            },
+            "type": "logo_image"
+          },
+          "9bdf512c-e3a4-403e-b8cc-608fd441c743": {
+            "settings": {
+              "image": "shopify:\/\/shop_images\/mizuno-logo-black-and-white.png",
+              "link": "shopify:\/\/collections\/mizuno"
+            },
+            "type": "logo_image"
+          },
+          "16642874402284b629-4": {
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Puma-Golf-All-Square-Golf.jpg",
+              "link": "shopify:\/\/collections\/puma"
+            },
+            "type": "logo_image"
+          }
+        },
+        "type": "index__logo-list",
+        "block_order": [
+          "16642874402284b629-0",
+          "16642874402284b629-1",
+          "16642874402284b629-2",
+          "16642874402284b629-3",
+          "16642874402284b629-4",
+          "e98471bc-0724-4005-a9c4-ce550d531f27",
+          "6ff616a3-165e-4c7b-8c04-92280d364313",
+          "9bdf512c-e3a4-403e-b8cc-608fd441c743"
+        ]
+      },
+      "page-details__main-3": {
+        "settings": {
+          "css_class": "",
+          "custom_css": ""
+        },
+        "blocks": {
+          "ed2fb5fd-c12d-4f09-b05e-f871a99f442a": {
+            "settings": {
+              "divider_width": 1,
+              "width": "standard",
+              "padding_top": 20,
+              "divider_color": "rgba(0,0,0,0)",
+              "alignment": "center",
+              "padding_bottom": 20,
+              "divider_style": "long",
+              "animation": "none"
+            },
+            "type": "divider"
+          },
+          "page-details__main-3-2": {
+            "settings": {
+              "text_font": "open_sans_n4",
+              "button_style": "button--primary",
+              "columns": 1,
+              "heading_font": "open_sans_n4",
+              "heading_color": "rgba(0,0,0,0)",
+              "gradient": "rgba(0,0,0,0)",
+              "text_alignment": "left",
+              "padding_top": 20,
+              "title": "Private Golf Instruction",
+              "heading_alignment": "center",
+              "heading_size": 30,
+              "animation": "none",
+              "padding_left": 0,
+              "text_size": 14,
+              "background": "rgba(0,0,0,0)",
+              "width": "wide",
+              "button_link": "",
+              "text": "<p>Working with one our PGA of Canada Professionals you can develop a plan to reach your goals. Whether you are looking for a single lesson to check on fundamentals or looking to reduce your handicap over the course of a season, we will work with you to ensure you get the most out of your time.<\/p>",
+              "text_color": "rgba(0,0,0,0)",
+              "button_label": "",
+              "gradient_rotation": 180,
+              "padding_bottom": 0,
+              "button_alignment": "center",
+              "padding_right": 0
+            },
+            "type": "rich_text"
+          },
+          "d96a439c-ba39-4f13-ac15-acbf4d299530": {
+            "settings": {
+              "image": "shopify:\/\/shop_images\/headshot1.jpg",
+              "image_link": "",
+              "button_style": "button--primary",
+              "link": "https:\/\/golfvault.com\/products\/golf-lessons",
+              "padding_top": 20,
+              "image_position": "left",
+              "vertical_position": "center",
+              "title": "Jack McCarthy <br> PGA of Canada Professional",
+              "image_crop": "none",
+              "heading_size": "regular",
+              "animation": "none",
+              "background": "rgba(0,0,0,0)",
+              "width": "standard",
+              "show_gutter": true,
+              "text": "<p>Jack started in the golf industry in 2013. The following year he decided the turn his passion into a full time career, joining the PGA of Canada. Jack is now a Class A Professional and has been a full time instructor over the past 5 years. Over this time period, Jack has worked with golfers of all ages and abilities. No matter your skill level, Jack looks forward to working with you to develop a plan that brings your game to its full potential. <\/p><p><\/p><p>Should you have any questions, please contact Jack at <a href=\"mailto:golfpro@golfvault.com\" title=\"mailto:golfpro@golfvault.com\">golfpro@golfvault.com<\/a><\/p>",
+              "button_label": "Book with Jack",
+              "text_color": "rgba(0,0,0,0)",
+              "alignment": "left",
+              "padding_bottom": 20
+            },
+            "type": "image_with_text"
+          },
+          "beacf44d-90e0-4dc7-936e-a1574564beae": {
+            "settings": {
+              "image": "shopify:\/\/shop_images\/headshot2.jpg",
+              "image_link": "",
+              "button_style": "button--primary",
+              "link": "mailto:dave@golfvault.com",
+              "padding_top": 20,
+              "image_position": "right",
+              "vertical_position": "center",
+              "title": "Dave Roy <br> PGA of Canada Head Professional",
+              "image_crop": "none",
+              "heading_size": "regular",
+              "animation": "none",
+              "background": "rgba(0,0,0,0)",
+              "width": "standard",
+              "show_gutter": true,
+              "text": "<p>Dave has 20+ years of teaching experience and is very passionate about the swing and body.  He has been taught by, and has learned from some of the most famous instructors in Canada.  He is a certified golf fitness instructor and focuses on how students can move effectively and efficiently, based on their bodies capabilities.  <\/p><p><\/p>",
+              "button_label": "Email Dave",
+              "text_color": "rgba(0,0,0,0)",
+              "alignment": "left",
+              "padding_bottom": 20
+            },
+            "type": "image_with_text"
+          },
+          "page-details__main-3-0": {
+            "settings": {
+              "button_2_style": "button--secondary",
+              "heading_color": "#000000",
+              "link": "",
+              "button_2_link": "",
+              "title": "Golf Lessons",
+              "mobile_image_crop": "none",
+              "heading_color_mobile": "rgba(0,0,0,0)",
+              "button_2": "",
+              "button_1": "Book Now",
+              "subheading_color_mobile": "rgba(0,0,0,0)",
+              "pretext": "",
+              "button_1_link": "https:\/\/golfvault.com\/products\/golf-lessons",
+              "padding_bottom": 0,
+              "padding_right": 0,
+              "image": "shopify:\/\/shop_images\/Golf_Lessons_Wider.jpg",
+              "border_width": 0,
+              "pretext_color": "#000000",
+              "button_1_style": "button--secondary",
+              "text_alignment": "center",
+              "mobile_text_below_image": true,
+              "padding_top": 0,
+              "border_color": "#ffffff",
+              "animation": "none",
+              "subheading_color": "#000000",
+              "padding_left": 0,
+              "pretext_color_mobile": "rgba(0,0,0,0)",
+              "background_color": "#ffffff",
+              "text_horizontal_position": "center",
+              "text_width": 40,
+              "subtitle": "<p>PGA of Canada Certified Instructors<\/p>",
+              "width": "wide",
+              "background_opacity": 84,
+              "text_vertical_position": "middle"
+            },
+            "type": "image_with_overlay"
+          },
+          "d2413f84-01ae-49eb-b39f-3729db478db6": {
+            "settings": {
+              "divider_width": 1,
+              "width": "standard",
+              "padding_top": 20,
+              "divider_color": "rgba(0,0,0,0)",
+              "alignment": "center",
+              "padding_bottom": 20,
+              "divider_style": "long",
+              "animation": "none"
+            },
+            "type": "divider"
+          },
+          "b2cf2de5-9b4e-4ac4-9087-aa78cc029618": {
+            "settings": {
+              "text_font": "open_sans_n4",
+              "button_style": "button--primary",
+              "columns": 2,
+              "heading_font": "open_sans_n4",
+              "heading_color": "rgba(0,0,0,0)",
+              "gradient": "rgba(0,0,0,0)",
+              "text_alignment": "left",
+              "padding_top": 0,
+              "title": "What's Included In Your Lesson",
+              "heading_alignment": "left",
+              "heading_size": 30,
+              "animation": "none",
+              "padding_left": 0,
+              "text_size": 14,
+              "background": "rgba(0,0,0,0)",
+              "width": "wide",
+              "button_link": "",
+              "text": "<p>Instruction by a PGA of Canada Professional<\/p><p><\/p><p>TrackMan Performance Studio using shot analysis<\/p><p>Video analysis (TrackMan or Hudl)<\/p><p>TrackMan Report (Ball and Club data)<\/p><p>Video review or TrackMan screencast for a lesson overview<\/p><p>55-minute session<\/p>",
+              "text_color": "rgba(0,0,0,0)",
+              "button_label": "",
+              "gradient_rotation": 180,
+              "padding_bottom": 0,
+              "button_alignment": "center",
+              "padding_right": 0
+            },
+            "type": "rich_text"
+          }
+        },
+        "type": "page-details__main-3",
+        "block_order": [
+          "page-details__main-3-0",
+          "page-details__main-3-2",
+          "ed2fb5fd-c12d-4f09-b05e-f871a99f442a",
+          "b2cf2de5-9b4e-4ac4-9087-aa78cc029618",
+          "d2413f84-01ae-49eb-b39f-3729db478db6",
+          "d96a439c-ba39-4f13-ac15-acbf4d299530",
+          "beacf44d-90e0-4dc7-936e-a1574564beae"
+        ]
+      },
+      "9f45c63c-f4ca-4b74-86f2-32b6f96afd65": {
+        "settings": {
+          "show_border": true,
+          "padding_top": 20,
+          "custom_css": "",
+          "overlay_background": "#939393",
+          "animation": "none",
+          "css_class": "",
+          "overlay_text": "#FFFFFF",
+          "crop_images": true,
+          "overlay_background_opacity": 70,
+          "width": "wide",
+          "show_gutter": true,
+          "padding_bottom": 20,
+          "border_radius": 0
+        },
+        "blocks": {
+          "3bda420d-3324-464a-a63a-90a14abe91d6": {
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Playoff2.0ZipGrey.jpg",
+              "overlay_text": "rgba(0,0,0,0)",
+              "link": "https:\/\/golfvault.com\/collections\/mens-sweaters",
+              "overlay_background_opacity": 70,
+              "text": "",
+              "title": "Shop Golf Sweaters",
+              "overlay_background": "rgba(0,0,0,0)"
+            },
+            "type": "image"
+          },
+          "e5a19e74-63be-46b9-950a-2e4bc71f46bb": {
+            "settings": {
+              "image": "shopify:\/\/shop_images\/ezgif-1-b673394573.jpg",
+              "overlay_text": "rgba(0,0,0,0)",
+              "link": "https:\/\/golfvault.com\/collections\/mens-shirts",
+              "overlay_background_opacity": 70,
+              "text": "",
+              "title": "Shop Golf  Polos",
+              "overlay_background": "rgba(0,0,0,0)"
+            },
+            "type": "image"
+          },
+          "9f45c63c-f4ca-4b74-86f2-32b6f96afd65-1667320911e58e68a3-0": {
+            "settings": {
+              "image": "shopify:\/\/shop_images\/FootJoy-Premiere-Series-Packard_2fd3ba59-3a3a-4d57-bf34-5396759c2fa5.jpg",
+              "overlay_text": "rgba(0,0,0,0)",
+              "link": "https:\/\/golfvault.com\/collections\/mens-shoes",
+              "overlay_background_opacity": 70,
+              "text": "",
+              "title": "Shop Golf Shoes",
+              "overlay_background": "rgba(0,0,0,0)"
+            },
+            "type": "image"
+          }
+        },
+        "type": "index__featured-promotions",
+        "block_order": [
+          "9f45c63c-f4ca-4b74-86f2-32b6f96afd65-1667320911e58e68a3-0",
+          "e5a19e74-63be-46b9-950a-2e4bc71f46bb",
+          "3bda420d-3324-464a-a63a-90a14abe91d6"
+        ]
+      },
+      "page-details__main-2": {
+        "settings": {
+          "css_class": "",
+          "custom_css": ""
+        },
+        "blocks": {
+          "2c638d73-ecca-4f3f-a077-1ab4eca92eb9": {
+            "settings": {
+              "divider_width": 1,
+              "width": "standard",
+              "padding_top": 20,
+              "divider_color": "rgba(0,0,0,0)",
+              "alignment": "center",
+              "padding_bottom": 20,
+              "divider_style": "long",
+              "animation": "none"
+            },
+            "type": "divider"
+          },
+          "05a5ed1f-e96e-4180-b46b-917e4b668a7b": {
+            "settings": {
+              "divider_width": 1,
+              "width": "standard",
+              "padding_top": 20,
+              "divider_color": "rgba(0,0,0,0)",
+              "alignment": "center",
+              "padding_bottom": 20,
+              "divider_style": "long",
+              "animation": "none"
+            },
+            "type": "divider"
+          },
+          "page-details__main-2-0": {
+            "settings": {
+              "button_2_style": "button--secondary",
+              "heading_color": "#ffffff",
+              "link": "",
+              "button_2_link": "",
+              "title": "Club Fitting",
+              "mobile_image_crop": "none",
+              "heading_color_mobile": "rgba(0,0,0,0)",
+              "button_2": "",
+              "button_1": "",
+              "subheading_color_mobile": "rgba(0,0,0,0)",
+              "pretext": "",
+              "button_1_link": "",
+              "padding_bottom": 0,
+              "padding_right": 0,
+              "image": "shopify:\/\/shop_images\/Club_Fittings_Home_Page.jpg",
+              "border_width": 0,
+              "pretext_color": "rgba(0,0,0,0)",
+              "button_1_style": "button--secondary",
+              "text_alignment": "center",
+              "mobile_text_below_image": false,
+              "padding_top": 0,
+              "border_color": "rgba(0,0,0,0)",
+              "animation": "none",
+              "subheading_color": "#ffffff",
+              "padding_left": 0,
+              "pretext_color_mobile": "rgba(0,0,0,0)",
+              "background_color": "rgba(0,0,0,0)",
+              "text_horizontal_position": "center",
+              "text_width": 40,
+              "subtitle": "<p>Let us put the right club in your hands<\/p>",
+              "width": "wide",
+              "background_opacity": 0,
+              "text_vertical_position": "bottom"
+            },
+            "type": "image_with_overlay"
+          },
+          "f62b00db-35c3-484b-a727-2fcf64a90325": {
+            "settings": {
+              "text_font": "open_sans_n4",
+              "button_style": "button--primary",
+              "columns": 1,
+              "heading_font": "open_sans_n4",
+              "heading_color": "rgba(0,0,0,0)",
+              "gradient": "rgba(0,0,0,0)",
+              "text_alignment": "left",
+              "padding_top": 0,
+              "title": "Wedge Fitting - $80 (1 Hour)",
+              "heading_alignment": "left",
+              "heading_size": 30,
+              "animation": "none",
+              "padding_left": 0,
+              "text_size": 16,
+              "background": "rgba(0,0,0,0)",
+              "width": "wide",
+              "button_link": "",
+              "text": "<p>Proper distance gapping<\/p><p>Determining lofts and grind options that suit your game<\/p><p>Brands offered - Titleist (Vokey), TaylorMade, Callaway, Cobra, Cleveland<\/p>",
+              "text_color": "rgba(0,0,0,0)",
+              "button_label": "",
+              "gradient_rotation": 180,
+              "padding_bottom": 0,
+              "button_alignment": "center",
+              "padding_right": 0
+            },
+            "type": "rich_text"
+          },
+          "page-details__main-2-2": {
+            "settings": {
+              "text_font": "open_sans_n4",
+              "button_style": "button--primary",
+              "columns": 1,
+              "heading_font": "open_sans_n4",
+              "heading_color": "rgba(0,0,0,0)",
+              "gradient": "rgba(0,0,0,0)",
+              "text_alignment": "left",
+              "padding_top": 20,
+              "title": "The Club Fitting Experience",
+              "heading_alignment": "center",
+              "heading_size": 30,
+              "animation": "none",
+              "padding_left": 0,
+              "text_size": 16,
+              "background": "rgba(0,0,0,0)",
+              "width": "wide",
+              "button_link": "https:\/\/golfvault.com\/products\/club-fittings",
+              "text": "<p>At Golf Vault our goal is to provide customers with an exceptional experience through outstanding customer service, unbeatable prices, an enjoyable shopping experience and helpful after-purchase support. <\/p><p>Within our indoor fitting studio, we use TrackMan 4 along side Titleist RCT premium golf balls to ensure the data collected during your fitting is both reliable and accurate. This data combined with expert product knowledge allows our professional fitting team to make the perfect addition to your bag. We want to ensure more golfers can experience the benefits club fitting has to offer. Any product purchased following a fitting session will be eligible for a discount. <\/p><p><\/p><p>Golfers will have the option of using Titleist Pro-V1 or Pro-V1x RCT golf balls during their fitting. This premium golf ball option was designed by Titleist and TrackMan to ensure the accuracy of the data captured.<\/p><p><\/p><p>For all fittings, please be sure to bring your current equipment for a side-by-side comparison. Every fitting session will be followed up with a TrackMan report.<\/p>",
+              "text_color": "rgba(0,0,0,0)",
+              "button_label": "Book Your Custom Fitting",
+              "gradient_rotation": 180,
+              "padding_bottom": 0,
+              "button_alignment": "center",
+              "padding_right": 0
+            },
+            "type": "rich_text"
+          },
+          "1a81d3b1-b3ba-4fbf-baa2-2b910d0a3354": {
+            "settings": {
+              "text_font": "open_sans_n4",
+              "button_style": "button--primary",
+              "columns": 1,
+              "heading_font": "open_sans_n4",
+              "heading_color": "rgba(0,0,0,0)",
+              "gradient": "#ffffff",
+              "text_alignment": "left",
+              "padding_top": 0,
+              "title": "Driver Fitting - $80 (1 Hour)",
+              "heading_alignment": "left",
+              "heading_size": 30,
+              "animation": "none",
+              "padding_left": 0,
+              "text_size": 16,
+              "background": "#ffffff",
+              "width": "wide",
+              "button_link": "",
+              "text": "<p>Optimizing ball speed, launch, spin and distance for your best driving performance<\/p><p>Brands offered – Titleist, TaylorMade, Callaway, Cobra, Srixon*, Ping-RH only<\/p>",
+              "text_color": "rgba(0,0,0,0)",
+              "button_label": "",
+              "gradient_rotation": 0,
+              "padding_bottom": 0,
+              "button_alignment": "center",
+              "padding_right": 0
+            },
+            "type": "rich_text"
+          },
+          "157a5642-06f7-47c0-b592-ec01c6661042": {
+            "settings": {
+              "text_font": "open_sans_n4",
+              "button_style": "button--primary",
+              "columns": 1,
+              "heading_font": "open_sans_n4",
+              "heading_color": "rgba(0,0,0,0)",
+              "gradient": "rgba(0,0,0,0)",
+              "text_alignment": "left",
+              "padding_top": 0,
+              "title": "Full Bag Fitting - $160 (2 Hours)",
+              "heading_alignment": "left",
+              "heading_size": 30,
+              "animation": "none",
+              "padding_left": 0,
+              "text_size": 16,
+              "background": "rgba(0,0,0,0)",
+              "width": "wide",
+              "button_link": "",
+              "text": "<p>Driver to most lofted wedge<\/p><p>13 Clubs<\/p>",
+              "text_color": "rgba(0,0,0,0)",
+              "button_label": "",
+              "gradient_rotation": 180,
+              "padding_bottom": 0,
+              "button_alignment": "center",
+              "padding_right": 0
+            },
+            "type": "rich_text"
+          },
+          "6378f452-b7a4-4280-928d-56400b5ed93c": {
+            "settings": {
+              "text_font": "open_sans_n4",
+              "button_style": "button--primary",
+              "columns": 1,
+              "heading_font": "open_sans_n4",
+              "heading_color": "rgba(0,0,0,0)",
+              "gradient": "rgba(0,0,0,0)",
+              "text_alignment": "center",
+              "padding_top": 20,
+              "title": "",
+              "heading_alignment": "center",
+              "heading_size": 30,
+              "animation": "none",
+              "padding_left": 0,
+              "text_size": 14,
+              "background": "rgba(0,0,0,0)",
+              "width": "wide",
+              "button_link": "",
+              "text": "<p>Please, contact Jack at <a href=\"mailto:golfpro@golfvault.com\" title=\"mailto:golfpro@golfvault.com\"><strong>golfpro@golfvault.com<\/strong><\/a> if you have any questions or require more information regarding a fitting.<\/p><p>* Indicates there are limited options available<\/p>",
+              "text_color": "rgba(0,0,0,0)",
+              "button_label": "",
+              "gradient_rotation": 180,
+              "padding_bottom": 20,
+              "button_alignment": "center",
+              "padding_right": 0
+            },
+            "type": "rich_text"
+          },
+          "96af9a6b-297a-4c97-b7f9-3f641602111d": {
+            "settings": {
+              "divider_width": 1,
+              "width": "standard",
+              "padding_top": 20,
+              "divider_color": "rgba(0,0,0,0)",
+              "alignment": "center",
+              "padding_bottom": 20,
+              "divider_style": "long",
+              "animation": "none"
+            },
+            "type": "divider"
+          },
+          "7fa92e4e-44a6-4eec-9bcc-e08293f7ab91": {
+            "settings": {
+              "text_font": "open_sans_n4",
+              "button_style": "button--primary",
+              "columns": 1,
+              "heading_font": "open_sans_n4",
+              "heading_color": "rgba(0,0,0,0)",
+              "gradient": "#ffffff",
+              "text_alignment": "left",
+              "padding_top": 0,
+              "title": "Iron Fitting - $80 (1 Hour)",
+              "heading_alignment": "left",
+              "heading_size": 30,
+              "animation": "none",
+              "padding_left": 0,
+              "text_size": 16,
+              "background": "#ffffff",
+              "width": "wide",
+              "button_link": "",
+              "text": "<p>Finding the best option to maximize your iron game while creating a set that flows from the long game and into the short game<\/p><p>Brands offered - Titleist*, TaylorMade, Ping, Callaway, Cobra, Mizuno, Srixon<\/p>",
+              "text_color": "rgba(0,0,0,0)",
+              "button_label": "",
+              "gradient_rotation": 180,
+              "padding_bottom": 0,
+              "button_alignment": "center",
+              "padding_right": 0
+            },
+            "type": "rich_text"
+          },
+          "2d4e679f-f5cc-408c-a733-63aaa9fd8e56": {
+            "settings": {
+              "text_font": "open_sans_n4",
+              "button_style": "button--primary",
+              "columns": 1,
+              "heading_font": "open_sans_n4",
+              "heading_color": "rgba(0,0,0,0)",
+              "gradient": "#ffffff",
+              "text_alignment": "left",
+              "padding_top": 0,
+              "title": "Fairway\/Hybrid Fitting - $80 (1 Hour)",
+              "heading_alignment": "left",
+              "heading_size": 30,
+              "animation": "none",
+              "padding_left": 0,
+              "text_size": 16,
+              "background": "#ffffff",
+              "width": "wide",
+              "button_link": "",
+              "text": "<p>Proper set composition to ensure there are no gaps between your driver and your longest iron<\/p><p><\/p><p>Brands offered - Titleist, TaylorMade, Callaway, Cobra, Srixon*, Ping*<\/p>",
+              "text_color": "rgba(0,0,0,0)",
+              "button_label": "",
+              "gradient_rotation": 0,
+              "padding_bottom": 0,
+              "button_alignment": "center",
+              "padding_right": 0
+            },
+            "type": "rich_text"
+          },
+          "6a90ea6d-6382-4b90-bd49-f2b605ca09a7": {
+            "settings": {
+              "image": "shopify:\/\/shop_images\/headshot1.jpg",
+              "image_link": "",
+              "button_style": "button--primary",
+              "link": "https:\/\/golfvault.com\/products\/club-fittings",
+              "padding_top": 20,
+              "image_position": "left",
+              "vertical_position": "center",
+              "title": "Jack McCarthy<br>PGA of Canada Professional",
+              "image_crop": "none",
+              "heading_size": "regular",
+              "animation": "none",
+              "background": "rgba(0,0,0,0)",
+              "width": "standard",
+              "show_gutter": true,
+              "text": "<p>TrackMan Professional Level 1 and 2<\/p><p>Titleist Club Fitting Professional<\/p><p>Ping Certified Club Fitter<\/p><p>TaylorMade Certified Club Fitter<\/p><p>Cobra Certified Club Fitter<\/p><p>Callaway Certified Fitter<\/p>",
+              "button_label": "Book Your Custom Fitting",
+              "text_color": "rgba(0,0,0,0)",
+              "alignment": "left",
+              "padding_bottom": 20
+            },
+            "type": "image_with_text"
+          },
+          "d3ccb75b-071f-479d-97d2-69f607b2459e": {
+            "settings": {
+              "divider_width": 1,
+              "width": "standard",
+              "padding_top": 20,
+              "divider_color": "rgba(0,0,0,0)",
+              "alignment": "center",
+              "padding_bottom": 20,
+              "divider_style": "long",
+              "animation": "none"
+            },
+            "type": "divider"
+          },
+          "db0b639c-03ff-41a0-8218-fbb6021b5493": {
+            "settings": {
+              "divider_width": 1,
+              "width": "standard",
+              "padding_top": 20,
+              "divider_color": "rgba(0,0,0,0)",
+              "alignment": "center",
+              "padding_bottom": 20,
+              "divider_style": "long",
+              "animation": "none"
+            },
+            "type": "divider"
+          },
+          "14600c41-4d27-45dd-b68b-6c77fc2fe12a": {
+            "settings": {
+              "divider_width": 1,
+              "width": "standard",
+              "padding_top": 20,
+              "divider_color": "rgba(0,0,0,0)",
+              "alignment": "center",
+              "padding_bottom": 20,
+              "divider_style": "long",
+              "animation": "none"
+            },
+            "type": "divider"
+          }
+        },
+        "type": "page-details__main-2",
+        "block_order": [
+          "page-details__main-2-0",
+          "page-details__main-2-2",
+          "14600c41-4d27-45dd-b68b-6c77fc2fe12a",
+          "1a81d3b1-b3ba-4fbf-baa2-2b910d0a3354",
+          "d3ccb75b-071f-479d-97d2-69f607b2459e",
+          "2d4e679f-f5cc-408c-a733-63aaa9fd8e56",
+          "2c638d73-ecca-4f3f-a077-1ab4eca92eb9",
+          "7fa92e4e-44a6-4eec-9bcc-e08293f7ab91",
+          "05a5ed1f-e96e-4180-b46b-917e4b668a7b",
+          "f62b00db-35c3-484b-a727-2fcf64a90325",
+          "db0b639c-03ff-41a0-8218-fbb6021b5493",
+          "157a5642-06f7-47c0-b592-ec01c6661042",
+          "96af9a6b-297a-4c97-b7f9-3f641602111d",
+          "6a90ea6d-6382-4b90-bd49-f2b605ca09a7",
+          "6378f452-b7a4-4280-928d-56400b5ed93c"
+        ]
+      },
+      "1649264894e8727438": {
+        "settings": {
+          "maxwidth": 1680
+        },
+        "type": "judgeme_carousel_section"
+      },
+      "footer__icon-bar": {
+        "settings": {
+          "css_class": "",
+          "link_color": "#ffffff",
+          "size": "medium",
+          "background": "#8b8b8b",
+          "width": "standard",
+          "link_hover_color": "#000000",
+          "text_color": "#ffffff",
+          "custom_css": "",
+          "alignment": "center",
+          "show_icon_bar": false,
+          "icon_position": "row"
+        },
+        "blocks": {
+          "footer__icon-bar-0": {
+            "settings": {
+              "icon": "leaf",
+              "link": "",
+              "text": "100% Organic"
+            },
+            "type": "text"
+          },
+          "footer__icon-bar-2": {
+            "settings": {
+              "icon": "chat",
+              "link": "",
+              "text": "24\/7 support"
+            },
+            "type": "text"
+          },
+          "footer__icon-bar-1": {
+            "settings": {
+              "icon": "bunny",
+              "link": "",
+              "text": "Cruelty free"
+            },
+            "type": "text"
+          },
+          "footer__icon-bar-3": {
+            "settings": {
+              "icon": "truck",
+              "link": "",
+              "text": "Free shipping"
+            },
+            "type": "text"
+          }
+        },
+        "type": "footer__icon-bar",
+        "block_order": [
+          "footer__icon-bar-0",
+          "footer__icon-bar-2",
+          "footer__icon-bar-1",
+          "footer__icon-bar-3"
+        ]
+      },
+      "page-details__main-5": {
+        "settings": {
+          "css_class": "",
+          "custom_css": ""
+        },
+        "blocks": {
+          "page-details__main-5-2": {
+            "settings": {
+              "text_font": "open_sans_n4",
+              "button_style": "button--primary",
+              "columns": 1,
+              "heading_font": "open_sans_n4",
+              "heading_color": "rgba(0,0,0,0)",
+              "gradient": "#ffffff",
+              "text_alignment": "left",
+              "padding_top": 20,
+              "title": "Come Visit Us At Our Store",
+              "heading_alignment": "center",
+              "heading_size": 30,
+              "animation": "none",
+              "padding_left": 0,
+              "text_size": 14,
+              "background": "#ffffff",
+              "width": "wide",
+              "button_link": "",
+              "text": "<p>Come visit us in store at our new location. You can find us at 2631 Kingsway Drive, Kitchener, ON, N2C 1A7. If you have any issues finding our store just call us at 519-748-1444.<\/p>",
+              "text_color": "rgba(0,0,0,0)",
+              "button_label": "",
+              "gradient_rotation": 180,
+              "padding_bottom": 0,
+              "button_alignment": "center",
+              "padding_right": 0
+            },
+            "type": "rich_text"
+          },
+          "a10b0330-e158-4d73-af3e-f399beb74a9e": {
+            "settings": {
+              "show_pin": true,
+              "padding_left": 0,
+              "map_height": 500,
+              "api_key": "",
+              "map_style": "default",
+              "width": "wide",
+              "padding_top": 0,
+              "map_address": "2631 Kingsway Drive, Kitchener, N2C 1A7",
+              "zoom_level": 16,
+              "padding_bottom": 0,
+              "padding_right": 0,
+              "animation": "none"
+            },
+            "type": "map"
+          }
+        },
+        "type": "page-details__main-5",
+        "block_order": [
+          "page-details__main-5-2",
+          "a10b0330-e158-4d73-af3e-f399beb74a9e"
+        ]
+      },
+      "page-details__main-4": {
+        "settings": {
+          "css_class": "",
+          "custom_css": ""
+        },
+        "blocks": {
+          "426df8a6-7793-45ed-bdfb-60e12c9e4f89": {
+            "settings": {
+              "text_font": "open_sans_n4",
+              "button_style": "button--primary",
+              "columns": 1,
+              "heading_font": "open_sans_n4",
+              "heading_color": "rgba(0,0,0,0)",
+              "gradient": "rgba(0,0,0,0)",
+              "text_alignment": "center",
+              "padding_top": 10,
+              "title": "",
+              "heading_alignment": "center",
+              "heading_size": 30,
+              "animation": "none",
+              "padding_left": 0,
+              "text_size": 14,
+              "background": "rgba(0,0,0,0)",
+              "width": "wide",
+              "button_link": "",
+              "text": "<p>If you have any questions regarding a practice session in the TrackMan Studio, please contact Jack at <a href=\"mailto:golfpro@golfvault.com\" title=\"mailto:golfpro@golfvault.com\">golfpro@golfvault.com<\/a><\/p><p><\/p>",
+              "text_color": "rgba(0,0,0,0)",
+              "button_label": "",
+              "gradient_rotation": 180,
+              "padding_bottom": 10,
+              "button_alignment": "center",
+              "padding_right": 0
+            },
+            "type": "rich_text"
+          },
+          "c10b43dc-3dfe-4873-b686-7c76ac7fa8b9": {
+            "settings": {
+              "text_font": "open_sans_n4",
+              "button_style": "button--primary",
+              "columns": 1,
+              "heading_font": "open_sans_n4",
+              "heading_color": "rgba(0,0,0,0)",
+              "gradient": "rgba(0,0,0,0)",
+              "text_alignment": "center",
+              "padding_top": 0,
+              "title": "TrackMan Combine",
+              "heading_alignment": "center",
+              "heading_size": 30,
+              "animation": "none",
+              "padding_left": 0,
+              "text_size": 14,
+              "background": "rgba(0,0,0,0)",
+              "width": "wide",
+              "button_link": "",
+              "text": "<p>The TrackMan Combine is a standardized test that enables you to identify the strengths and weaknesses in your golf game. Beginning with partial wedge shots and working all the way back to full drives, this 60 shot test will take approximately 30 to 45 minutes to complete.<\/p><p>You can challenge yourself, friends or golfers all around the world (indoor leaderboard). You can even see how your game stacks up against professionals. Or, the test itself can function solely as a practice tool with no requirements to post your scores online.<\/p><p><\/p><p>Test Yardages: 60, 70, 80, 90, 100, 120, 140, 160, 180, driver<\/p>",
+              "text_color": "rgba(0,0,0,0)",
+              "button_label": "",
+              "gradient_rotation": 180,
+              "padding_bottom": 0,
+              "button_alignment": "center",
+              "padding_right": 0
+            },
+            "type": "rich_text"
+          },
+          "page-details__main-4-2": {
+            "settings": {
+              "text_font": "open_sans_n4",
+              "button_style": "button--primary",
+              "columns": 1,
+              "heading_font": "open_sans_n4",
+              "heading_color": "#ffffff",
+              "gradient": "#592909",
+              "text_alignment": "center",
+              "padding_top": 0,
+              "title": "TrackMan Studio",
+              "heading_alignment": "center",
+              "heading_size": 49,
+              "animation": "none",
+              "padding_left": 0,
+              "text_size": 20,
+              "background": "#a65e0a",
+              "width": "wide",
+              "button_link": "https:\/\/golfvault.com\/products\/golf-practice-sessions",
+              "text": "",
+              "text_color": "#ffffff",
+              "button_label": "Book Now",
+              "gradient_rotation": 0,
+              "padding_bottom": 0,
+              "button_alignment": "center",
+              "padding_right": 0
+            },
+            "type": "rich_text"
+          },
+          "57070b8c-2801-455c-b685-810013413960": {
+            "settings": {
+              "text_font": "open_sans_n4",
+              "button_style": "button--primary",
+              "columns": 1,
+              "heading_font": "open_sans_n4",
+              "heading_color": "rgba(0,0,0,0)",
+              "gradient": "rgba(0,0,0,0)",
+              "text_alignment": "center",
+              "padding_top": 0,
+              "title": "Work On Your Game In Our TrackMan Studio",
+              "heading_alignment": "center",
+              "heading_size": 30,
+              "animation": "none",
+              "padding_left": 0,
+              "text_size": 14,
+              "background": "rgba(0,0,0,0)",
+              "width": "wide",
+              "button_link": "",
+              "text": "<p>Using the TrackMan Performance Studio, you can greatly enhance the way you practice. Use industry leading technology to produce both reliable and accurate data. When you arrive, the studio will be set up and ready to go. An account will be created for you where data across multiple practice sessions can be stored. A staff member will always be available to help navigate through the system. <\/p><p>All practice sessions are 55 minutes.<\/p>",
+              "text_color": "rgba(0,0,0,0)",
+              "button_label": "",
+              "gradient_rotation": 180,
+              "padding_bottom": 0,
+              "button_alignment": "center",
+              "padding_right": 0
+            },
+            "type": "rich_text"
+          },
+          "23178cea-b4c4-4cd6-8e34-bf474f59a215": {
+            "settings": {
+              "image": "shopify:\/\/shop_images\/TrackMan-Used-By-The-Best-Players-big_77.jpg",
+              "image_link": "",
+              "button_style": "button--primary",
+              "link": "https:\/\/golfvault.com\/products\/golf-practice-sessions",
+              "padding_top": 20,
+              "image_position": "left",
+              "vertical_position": "center",
+              "title": "TrackMan Performance Studio",
+              "image_crop": "none",
+              "heading_size": "regular",
+              "animation": "none",
+              "background": "rgba(0,0,0,0)",
+              "width": "standard",
+              "show_gutter": true,
+              "text": "<p><strong>Shot Analysis <\/strong>– open practice range with ball and club data<\/p><p><strong>Optimizer<\/strong> – determine what you need to improve to produce optimal number with each club<\/p><p><strong>Target Range<\/strong> – practice range with targets at varying distances <\/p><p><strong>Test Center<\/strong> – create specific drills tailored to your game<\/p><p><strong>TrackMan Report<\/strong> – a useful tool to look back at all the data from your session<\/p><p><strong>Virtual Golf <\/strong>– an immersive experience playing some of the most notable courses around the world<\/p><p><\/p>",
+              "button_label": "Book Your Practice Session",
+              "text_color": "rgba(0,0,0,0)",
+              "alignment": "left",
+              "padding_bottom": 40
+            },
+            "type": "image_with_text"
+          },
+          "fc8ffc67-e057-46d1-8bb9-1fb0b00ebfb4": {
+            "settings": {
+              "divider_width": 1,
+              "width": "standard",
+              "padding_top": 20,
+              "divider_color": "rgba(0,0,0,0)",
+              "alignment": "center",
+              "padding_bottom": 20,
+              "divider_style": "long",
+              "animation": "none"
+            },
+            "type": "divider"
+          },
+          "page-details__main-4-0": {
+            "settings": {
+              "button_2_style": "button--secondary",
+              "heading_color": "#000000",
+              "link": "",
+              "button_2_link": "",
+              "title": "",
+              "mobile_image_crop": "none",
+              "heading_color_mobile": "rgba(0,0,0,0)",
+              "button_2": "",
+              "button_1": "",
+              "subheading_color_mobile": "rgba(0,0,0,0)",
+              "pretext": "",
+              "button_1_link": "",
+              "padding_bottom": 0,
+              "padding_right": 0,
+              "image": "shopify:\/\/shop_images\/Practice_Wide.jpg",
+              "border_width": 0,
+              "pretext_color": "#000000",
+              "button_1_style": "button--secondary",
+              "text_alignment": "center",
+              "mobile_text_below_image": true,
+              "padding_top": 0,
+              "border_color": "#ffffff",
+              "animation": "none",
+              "subheading_color": "#000000",
+              "padding_left": 0,
+              "pretext_color_mobile": "rgba(0,0,0,0)",
+              "background_color": "#ffffff",
+              "text_horizontal_position": "center",
+              "text_width": 40,
+              "subtitle": "",
+              "width": "wide",
+              "background_opacity": 77,
+              "text_vertical_position": "middle"
+            },
+            "type": "image_with_overlay"
+          },
+          "7a732c5c-c8dd-444a-bbad-d3e1807edeac": {
+            "settings": {
+              "divider_width": 1,
+              "width": "standard",
+              "padding_top": 0,
+              "divider_color": "rgba(0,0,0,0)",
+              "alignment": "center",
+              "padding_bottom": 0,
+              "divider_style": "long",
+              "animation": "none"
+            },
+            "type": "divider"
+          }
+        },
+        "type": "page-details__main-4",
+        "block_order": [
+          "page-details__main-4-0",
+          "page-details__main-4-2",
+          "57070b8c-2801-455c-b685-810013413960",
+          "7a732c5c-c8dd-444a-bbad-d3e1807edeac",
+          "c10b43dc-3dfe-4873-b686-7c76ac7fa8b9",
+          "fc8ffc67-e057-46d1-8bb9-1fb0b00ebfb4",
+          "23178cea-b4c4-4cd6-8e34-bf474f59a215",
+          "426df8a6-7793-45ed-bdfb-60e12c9e4f89"
+        ]
+      },
+      "aa4c1985-2453-4ad4-8b3b-212ed553c72e": {
+        "settings": {
+          "css_class": "",
+          "padding_left": 0,
+          "html_content": "<div data-rebuy-id=\"56899\" data-rebuy-shopify-product-ids=\"{{ product.id }}\"><\/div>",
+          "width": "standard",
+          "padding_top": 20,
+          "custom_css": "",
+          "padding_bottom": 20,
+          "padding_right": 0,
+          "animation": "none"
+        },
+        "disabled": true,
+        "type": "index__html"
+      },
+      "page-faq__column1": {
+        "settings": {
+          "css_class": "",
+          "padding_top": 0,
+          "custom_css": "",
+          "padding_bottom": 0
+        },
+        "blocks": {
+          "page-faq__column1-3": {
+            "settings": {
+              "answer": "<p>We accept Visa, MC, Amex &amp; Paypal<\/p>",
+              "title": "What payments do you accept?"
+            },
+            "type": "content"
+          },
+          "1583862743267": {
+            "settings": {
+              "answer": "<p>At times we will offer pre-owned or demo equipment. All equipment is inspected to ensure it is authentic.<\/p>\n<p>Opinions on product condition vary. Please, refer to the pictures of the product for exact condition.<\/p>\n<p>All pre-owned equipment will clearly be marked as &ldquo;used&rdquo; or &ldquo;demo&rdquo;<\/p>",
+              "title": "Do we offer Pre-Owned Equipment"
+            },
+            "type": "content"
+          },
+          "page-faq__column1-2": {
+            "settings": {
+              "answer": "<p>You will receive an email confirmation for purchase and another when it has shipped, which will include the tracking number<\/p>",
+              "title": "How do I track my order status?"
+            },
+            "type": "content"
+          },
+          "page-faq__column1-5": {
+            "settings": {
+              "answer": "<p>We only charge sales tax to Canadians, as required by the laws of each province<\/p>",
+              "title": "Do you charge sales tax?"
+            },
+            "type": "content"
+          },
+          "page-faq__column1-7": {
+            "settings": {
+              "answer": "<p>Yes, please refer to the Returns section for more information<\/p>",
+              "title": "Do you accept returns?"
+            },
+            "type": "content"
+          },
+          "1583862421254": {
+            "settings": {
+              "answer": "<p>We already donate a significant portion of our sales to promote golf in Canada, so we do not offer any products or money for donations<\/p>",
+              "title": "Donations"
+            },
+            "type": "content"
+          },
+          "1583862707908": {
+            "settings": {
+              "answer": "<p>We do not currently offer any trade-in programs<\/p>",
+              "title": "Do we accept Trade Ins"
+            },
+            "type": "content"
+          },
+          "page-faq__column1-6": {
+            "settings": {
+              "answer": "<p>Please, contact us at <a href=\"mailto:customerservice@golfvault.com\">customerservice@golfvault.com<\/a>. We will respond within 1 business day<\/p>",
+              "title": "What do I do if there is a problem with my order?"
+            },
+            "type": "content"
+          },
+          "1583862384647": {
+            "settings": {
+              "title": "Orders"
+            },
+            "type": "heading"
+          },
+          "1583862412169": {
+            "settings": {
+              "title": "General"
+            },
+            "type": "heading"
+          },
+          "page-faq__column1-1": {
+            "settings": {
+              "answer": "<p>It will be shipped within 1 business day of purchase<\/p>",
+              "title": "How long does it take to ship my order?"
+            },
+            "type": "content"
+          },
+          "1583862467629": {
+            "settings": {
+              "answer": "<p>We offer club fitting in our TrackMan Studio and we have fitting options from all top brands such as Titleist, Ping, Cobra, TaylorMade and more. Please, refer to Club Fittings page located under the Simulator drop down located in the top bar of the webpage.<\/p>",
+              "title": "Do we provide custom fitting"
+            },
+            "type": "content"
+          }
+        },
+        "type": "page-faq__column1",
+        "block_order": [
+          "1583862384647",
+          "page-faq__column1-1",
+          "page-faq__column1-2",
+          "page-faq__column1-3",
+          "page-faq__column1-5",
+          "page-faq__column1-6",
+          "page-faq__column1-7",
+          "1583862412169",
+          "1583862421254",
+          "1583862467629",
+          "1583862707908",
+          "1583862743267"
+        ]
+      },
+      "page-details__main": {
+        "settings": {
+          "css_class": "",
+          "custom_css": "#shopify-section-1583437316269 {\n    padding-top: 0px;\n    padding-bottom: 0px;\n}"
+        },
+        "blocks": {
+          "1583436503952": {
+            "settings": {
+              "image3": "shopify:\/\/shop_images\/callaway-golf-logo-vector.png",
+              "image4": "shopify:\/\/shop_images\/kisspng-cobra-golf-golf-clubs-hybrid-ping-golf-5ad186e5c091c5.5065759915236809977888.png",
+              "gallery_type": "classic",
+              "hide1": false,
+              "padding_top": 20,
+              "image1": "shopify:\/\/shop_images\/taylormade-logo-preview.png",
+              "image2": "shopify:\/\/shop_images\/Under_Armour_60aaabe6-9ba1-455d-ae18-7622d53f698a.jpg",
+              "enable_lightbox": false,
+              "animation": "none",
+              "link_color": "rgba(0,0,0,0)",
+              "images_per_row": 4,
+              "overlay_color": "rgba(0,0,0,0)",
+              "link1": "shopify:\/\/collections\/taylormade",
+              "hide4": false,
+              "crop_images": false,
+              "width": "standard",
+              "link4": "shopify:\/\/collections\/cobra",
+              "hide5": true,
+              "show_gutter": true,
+              "hide2": false,
+              "link3": "shopify:\/\/collections\/callaway",
+              "link2": "shopify:\/\/collections\/under-armour",
+              "hide3": false,
+              "padding_bottom": 20
+            },
+            "type": "gallery"
+          },
+          "1585315011772": {
+            "settings": {
+              "image3": "shopify:\/\/shop_images\/Untitled_design.png",
+              "image4": "shopify:\/\/shop_images\/puma-se-vector-logo.png",
+              "gallery_type": "classic",
+              "hide1": false,
+              "padding_top": 20,
+              "image1": "shopify:\/\/shop_images\/titleist-vector-logo.png",
+              "image2": "shopify:\/\/shop_images\/Footjoy_resized_7a41aa14-7206-4369-9ddb-05b11d898572.png",
+              "enable_lightbox": false,
+              "animation": "none",
+              "link_color": "rgba(0,0,0,0)",
+              "images_per_row": 4,
+              "overlay_color": "#000000",
+              "link1": "shopify:\/\/collections\/titleist",
+              "hide4": false,
+              "crop_images": false,
+              "width": "standard",
+              "link4": "shopify:\/\/collections\/puma",
+              "hide5": true,
+              "show_gutter": true,
+              "hide2": false,
+              "link3": "shopify:\/\/collections\/ping",
+              "link2": "shopify:\/\/collections\/footjoy",
+              "hide3": false,
+              "padding_bottom": 20
+            },
+            "type": "gallery"
+          },
+          "page-details__main-2": {
+            "settings": {
+              "text_font": "open_sans_n4",
+              "button_style": "button--primary",
+              "columns": 2,
+              "heading_font": "open_sans_n4",
+              "heading_color": "rgba(0,0,0,0)",
+              "gradient": "#ffffff",
+              "text_alignment": "left",
+              "padding_top": 20,
+              "title": "Shop By Brand",
+              "heading_alignment": "center",
+              "heading_size": 30,
+              "animation": "none",
+              "padding_left": 0,
+              "text_size": 14,
+              "background": "#ffffff",
+              "width": "wide",
+              "text": "",
+              "text_color": "rgba(0,0,0,0)",
+              "button_label": "",
+              "gradient_rotation": 0,
+              "padding_bottom": 0,
+              "button_alignment": "center",
+              "padding_right": 0
+            },
+            "type": "rich_text"
+          }
+        },
+        "type": "page-details__main",
+        "block_order": [
+          "page-details__main-2",
+          "1583436503952",
+          "1585315011772"
+        ]
+      },
+      "page-contact__banner": {
+        "settings": {
+          "css_class": "",
+          "show_banner": false,
+          "image": "shopify:\/\/shop_images\/Screenshot_2022-04-08_095716.png",
+          "image_darken": false,
+          "banner_height": "medium",
+          "subtitle": "Subheading",
+          "width": "wide",
+          "padding_top": 0,
+          "custom_css": "",
+          "padding_bottom": 0
+        },
+        "type": "page-contact__banner"
+      },
+      "header-search-focus": {
+        "settings": {
+          "search_icon": "#ffffff",
+          "icon_style": "icons_text",
+          "enable_sticky": true,
+          "search_background": "#a0cc4a",
+          "custom_css": "",
+          "main_linklist": "main-menu",
+          "css_class": "",
+          "sticky_background_opacity": 100,
+          "menu_alignment": "center",
+          "width": "standard",
+          "logo": "shopify:\/\/shop_images\/logo_d066deaf-fd5f-4caf-9e5d-3a36f2d43ae8.png",
+          "scroll_logo_width": 230,
+          "logo_width": 210
+        },
+        "type": "header-search-focus"
+      },
+      "page-faq__column2": {
+        "settings": {
+          "css_class": "",
+          "padding_top": 0,
+          "custom_css": "",
+          "padding_bottom": 0
+        },
+        "type": "page-faq__column2"
+      },
+      "page-contact__sections": {
+        "settings": {
+        },
+        "type": "page-contact__sections"
+      },
+      "search__main": {
+        "settings": {
+          "products_per_row": 3,
+          "blog_author": false,
+          "mobile_products_per_row": "2",
+          "collection_height": 200,
+          "pagination_limit": 48,
+          "padding_top": 40,
+          "custom_css": "",
+          "css_class": "",
+          "pagination_type": "basic_pagination",
+          "search_breadcrumb": true,
+          "width": "standard",
+          "blog_date": true,
+          "text": "<p>Find what you seek.<\/p>",
+          "padding_bottom": 40,
+          "align_height": false
+        },
+        "type": "search__main"
+      },
+      "header__top-bar": {
+        "settings": {
+          "css_class": "",
+          "link_color": "rgba(0,0,0,0)",
+          "background": "rgba(0,0,0,0)",
+          "show_top_bar": false,
+          "font_size": 14,
+          "width": "standard",
+          "link_hover_color": "rgba(0,0,0,0)",
+          "font_style": "none",
+          "text_color": "rgba(0,0,0,0)",
+          "custom_css": "",
+          "letter_spacing": 0,
+          "font": "montserrat_n4"
+        },
+        "blocks": {
+          "header__top-bar-0": {
+            "settings": {
+              "text": "123 Main Street, Pleasantville USA"
+            },
+            "type": "text"
+          },
+          "header__top-bar-1": {
+            "settings": {
+            },
+            "type": "social_media"
+          }
+        },
+        "type": "header__top-bar",
+        "block_order": [
+          "header__top-bar-0",
+          "header__top-bar-1"
+        ]
+      },
+      "search__banner": {
+        "settings": {
+          "css_class": "",
+          "show_banner": false,
+          "image_darken": false,
+          "banner_height": "medium",
+          "width": "wide",
+          "padding_top": 0,
+          "custom_css": "",
+          "padding_bottom": 0
+        },
+        "type": "search__banner"
+      },
+      "product__main": {
+        "settings": {
+          "display_vendor": false,
+          "custom_css": ".shopify-payment-button__more-options{\n    padding-bottom: 0px;\n    padding-top: o;\n    padding-top: 0px;\n}",
+          "display_type": false,
+          "display_sku": false,
+          "enable_zoom": false,
+          "enable_thumbnail_slider": true,
+          "display_social_buttons": false,
+          "product_breadcrumb": false,
+          "padding_bottom": 20,
+          "slideshow_speed": 0,
+          "display_collections": false,
+          "enable_shopify_product_badges": false,
+          "display_savings": true,
+          "product_images_position": "left",
+          "padding_top": 20,
+          "thumbnail_position": "bottom-thumbnails",
+          "product_description_position": "bottom",
+          "animation": "none",
+          "display_tags": false,
+          "css_class": ".shopify-payment-button__more-options",
+          "gallery_arrows": true,
+          "enable_product_lightbox": true,
+          "width": "standard",
+          "show_payment_button": true,
+          "slideshow_transition": "slide"
+        },
+        "blocks": {
+          "product__main-0": {
+            "settings": {
+              "width": "standard",
+              "padding_top": 20,
+              "padding_bottom": 20,
+              "animation": "none"
+            },
+            "type": "recommended_products"
+          }
+        },
+        "type": "product__main",
+        "block_order": [
+          "product__main-0"
+        ]
+      },
+      "cart__main": {
+        "settings": {
+          "css_class": "",
+          "cart_message": "",
+          "display_savings": true,
+          "width": "standard",
+          "padding_top": 40,
+          "custom_css": "",
+          "padding_bottom": 40,
+          "display_product_quantity_cart": true
+        },
+        "type": "cart__main"
+      },
+      "fixed-message": {
+        "settings": {
+          "css_class": "",
+          "button_style": "button--primary",
+          "background": "#000000",
+          "width": "wide",
+          "text": "<p>We use cookies on our website to give you the best shopping experience. By using this site, you agree to its use of cookies. <\/p>",
+          "button_label": "I agree",
+          "text_color": "#ffffff",
+          "custom_css": "",
+          "background_opacity": 77
+        },
+        "type": "fixed-message"
+      },
+      "footer-classic": {
+        "settings": {
+          "css_class": "",
+          "display_payment_methods": true,
+          "display_shopify": false,
+          "copyright_text": "",
+          "display_designed_by": false,
+          "custom_css": ""
+        },
+        "blocks": {
+          "1582838637973": {
+            "settings": {
+              "social_icons_footer": false,
+              "menu": "company"
+            },
+            "type": "link_list"
+          },
+          "footer-classic-1": {
+            "settings": {
+              "social_icons_footer": false,
+              "menu": "footer"
+            },
+            "type": "link_list"
+          },
+          "footer-classic-0": {
+            "settings": {
+              "size": "small",
+              "social_icons_footer": false,
+              "logo": "shopify:\/\/shop_images\/Golf_Vault_white_1.png",
+              "text": ""
+            },
+            "type": "logo"
+          },
+          "1582838655006": {
+            "settings": {
+              "social_icons_footer": false,
+              "menu": "policies"
+            },
+            "type": "link_list"
+          }
+        },
+        "type": "footer-classic",
+        "block_order": [
+          "1582838637973",
+          "footer-classic-1",
+          "footer-classic-0",
+          "1582838655006"
+        ]
+      },
+      "mega-menu-10": {
+        "settings": {
+          "parent_link": "Club Fitting",
+          "enable_mega_menu_border": false,
+          "mega_menu_text_color": "#404040",
+          "css_class": "",
+          "bottom_banner_text": "#efefef",
+          "size": "regular",
+          "mega_bottom_bar_text": "",
+          "mega_menu_background_color": "#f6f6f6",
+          "show_mega_bottom_bar": true,
+          "custom_css": "",
+          "mega_bottom_bar_icon": "",
+          "bottom_banner_bg": "#007ace"
+        },
+        "blocks": {
+          "mega-menu-10-0": {
+            "settings": {
+              "menu_1": "in-the-simulator"
+            },
+            "type": "menu"
+          },
+          "d0b293fd-68ca-41cf-947a-a8bf42028d12": {
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Lesson_Pic_4000x_1.jpg",
+              "promo_link": "shopify:\/\/pages\/golf-lessons-1",
+              "button_style": "button--primary",
+              "bgr_color": "#eeeeee",
+              "richtext": "<p>PGA of Canada Certified Instructors<\/p>",
+              "text_color": "#000000",
+              "button_label": "Book Now"
+            },
+            "type": "featured_promo"
+          }
+        },
+        "type": "mega-menu-10",
+        "block_order": [
+          "mega-menu-10-0",
+          "d0b293fd-68ca-41cf-947a-a8bf42028d12"
+        ]
+      },
+      "page__main": {
+        "settings": {
+          "css_class": "",
+          "width": "standard",
+          "padding_top": 40,
+          "custom_css": "",
+          "padding_bottom": 40
+        },
+        "type": "page__main"
+      },
+      "1582838451119": {
+        "settings": {
+          "mobile_products_per_row": "2",
+          "collection_height": 170,
+          "padding_top": 20,
+          "collection": "2022-demo-club-sale",
+          "products_per": 5,
+          "collection_style": "slider",
+          "custom_css": "",
+          "title": "All Demo Drivers on for $499.95 or less!",
+          "animation": "none",
+          "css_class": "",
+          "width": "wide",
+          "products_limit": 20,
+          "show_gutter": true,
+          "padding_bottom": 20,
+          "align_height": true
+        },
+        "type": "index__featured-collection"
+      },
+      "1615581787daf9f1aa": {
+        "settings": {
+          "show_border": true,
+          "padding_top": 0,
+          "custom_css": "",
+          "overlay_background": "#939393",
+          "animation": "none",
+          "css_class": "",
+          "overlay_text": "#ffffff",
+          "crop_images": true,
+          "overlay_background_opacity": 70,
+          "width": "standard",
+          "show_gutter": true,
+          "padding_bottom": 0,
+          "border_radius": 0
+        },
+        "blocks": {
+          "cd7ba3a8-a9a9-4bc7-87c5-a35f7b5e406b": {
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Fitting_Pic_4000x_1.jpg",
+              "overlay_text": "rgba(0,0,0,0)",
+              "link": "shopify:\/\/pages\/club-fittings",
+              "overlay_background_opacity": 70,
+              "text": "<p>Let us put the right club in your hands<\/p>",
+              "title": "Club Fitting",
+              "overlay_background": "rgba(0,0,0,0)"
+            },
+            "type": "image"
+          },
+          "5cb9564e-292c-4099-935d-0b9fce677c05": {
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Lesson_Pic_4000x_1.jpg",
+              "overlay_text": "rgba(0,0,0,0)",
+              "link": "shopify:\/\/pages\/golf-lessons-1",
+              "overlay_background_opacity": 70,
+              "text": "<p>PGA of Canada Certified Instructors<\/p>",
+              "title": "Golf Lessons",
+              "overlay_background": "rgba(0,0,0,0)"
+            },
+            "type": "image"
+          },
+          "1615581787daf9f1aa-0": {
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Unleash_Branding_2200x1100_2_4000x_c63f9d10-7207-4905-9506-be92d80c0bfb.jpg",
+              "overlay_text": "rgba(0,0,0,0)",
+              "link": "shopify:\/\/pages\/practice-session",
+              "overlay_background_opacity": 70,
+              "text": "<p><br\/>Work On Your Game In Our TrackMan Studio<\/p>",
+              "title": "Practice Sessions",
+              "overlay_background": "rgba(0,0,0,0)"
+            },
+            "type": "image"
+          }
+        },
+        "disabled": true,
+        "type": "index__featured-promotions",
+        "block_order": [
+          "5cb9564e-292c-4099-935d-0b9fce677c05",
+          "cd7ba3a8-a9a9-4bc7-87c5-a35f7b5e406b",
+          "1615581787daf9f1aa-0"
+        ]
+      },
+      "announcement-bar": {
+        "settings": {
+          "button_style": "button--primary",
+          "show_close_icon": true,
+          "enable_sticky": false,
+          "link": "",
+          "custom_css": "",
+          "icon_label": "tag",
+          "css_class": "",
+          "size": "regular",
+          "background": "#f4f4f4",
+          "width": "wide",
+          "homepage_only": false,
+          "text": "<p>Free standard shipping in North America on orders over $75.<\/p>",
+          "button_label": "",
+          "text_color": "#656565",
+          "alignment": "center"
+        },
+        "type": "announcement-bar"
+      },
+      "collection__main": {
+        "settings": {
+          "products_per_row": 3,
+          "promo_text": "<p>Description of promotion with lots of details.<\/p>",
+          "banner_height": "medium",
+          "collection_height": 200,
+          "mobile_products_per_row": "2",
+          "pagination_limit": 48,
+          "padding_top": 40,
+          "collection_sort": true,
+          "custom_css": "",
+          "collection_breadcrumb": true,
+          "collection_tags": true,
+          "css_class": "",
+          "show_promo_banner": false,
+          "image_darken": true,
+          "pagination_type": "load_more",
+          "width": "standard",
+          "promo_title": "Special sale on now!",
+          "padding_bottom": 40,
+          "align_height": true
+        },
+        "type": "collection__main"
+      },
+      "product__sidebar": {
+        "settings": {
+          "css_class": "",
+          "custom_css": "",
+          "show_sidebar": false
+        },
+        "blocks": {
+          "product__sidebar-0": {
+            "settings": {
+              "promo_link": "",
+              "promo_text": "#000000",
+              "button_style": "button--primary",
+              "promo_background": "#eeeeee",
+              "richtext": "<p>Use this area for promotional information.<\/p>",
+              "button_label": "Shop now"
+            },
+            "type": "featured_promo"
+          },
+          "product__sidebar-1": {
+            "settings": {
+              "menu": ""
+            },
+            "type": "menu"
+          },
+          "product__sidebar-2": {
+            "settings": {
+              "text": "<p>Text area can be used for details about blog authors or general information.<\/p>",
+              "title": "Heading"
+            },
+            "type": "text"
+          }
+        },
+        "type": "product__sidebar",
+        "block_order": [
+          "product__sidebar-0",
+          "product__sidebar-1",
+          "product__sidebar-2"
+        ]
+      },
+      "page-faq__banner": {
+        "settings": {
+          "css_class": "",
+          "show_banner": false,
+          "image_darken": false,
+          "banner_height": "medium",
+          "subtitle": "Subheading",
+          "width": "wide",
+          "padding_top": 0,
+          "custom_css": "",
+          "padding_bottom": 0
+        },
+        "type": "page-faq__banner"
+      },
+      "1615582771624983a6": {
+        "settings": {
+          "preheading_color": "rgba(0,0,0,0)",
+          "preheading": "",
+          "heading_color": "rgba(0,0,0,0)",
+          "gradient": "rgba(0,0,0,0)",
+          "padding_top": 0,
+          "vertical_spacing": "medium",
+          "custom_css": "",
+          "title": "<b>Club Fitting, Lessons & Practice Time<\/b>",
+          "heading_alignment": "center",
+          "animation": "none",
+          "subheading_color": "rgba(0,0,0,0)",
+          "css_class": "",
+          "padding_left": 0,
+          "background": "rgba(0,0,0,0)",
+          "width": "standard",
+          "gradient_rotation": 0,
+          "padding_bottom": 0,
+          "subheading": "<p>Located in <a href=\"https:\/\/www.google.com\/maps\/place\/Golf+Vault\/@43.4320116,-80.4474878,17z\/data=!3m1!4b1!4m5!3m4!1s0x882c09c485405b4b:0xef19d3e0da1613b1!8m2!3d43.4320116!4d-80.4452991\" target=\"_blank\" title=\"https:\/\/www.google.com\/maps\/place\/Golf+Vault\/@43.4320116,-80.4474878,17z\/data=!3m1!4b1!4m5!3m4!1s0x882c09c485405b4b:0xef19d3e0da1613b1!8m2!3d43.4320116!4d-80.4452991\"><strong>Kitchener, Ontario<\/strong><\/a><\/p>",
+          "padding_right": 0
+        },
+        "disabled": true,
+        "type": "index__heading"
+      },
+      "mega-menu-3": {
+        "settings": {
+          "mega_menu_text_color": "#404040",
+          "mega_menu_background_color": "#ffffff",
+          "custom_css": ".mega-menu{font-size: 14px;}",
+          "bottom_banner_bg": "#007ace",
+          "parent_link": "Shoes",
+          "enable_mega_menu_border": false,
+          "css_class": ".mega-menu",
+          "bottom_banner_text": "#efefef",
+          "size": "regular",
+          "mega_bottom_bar_text": "Add your deal, information or promotional text",
+          "show_mega_bottom_bar": false,
+          "mega_bottom_bar_icon": "",
+          "mega_bottom_bar_link": ""
+        },
+        "blocks": {
+          "1584567410165": {
+            "settings": {
+              "richtext_bottom": "",
+              "featured_product": "puma-ptc-proadapt-delta-gold-shoes-limited-edition"
+            },
+            "type": "featured_product"
+          },
+          "1584567453557": {
+            "settings": {
+              "menu_1": "shoes-1",
+              "menu_1_hidden": false,
+              "menu_1_link": "shopify:\/\/collections\/shoes"
+            },
+            "type": "menu"
+          },
+          "1584567655031": {
+            "settings": {
+              "menu_1": "shoes-2",
+              "menu_1_hidden": true,
+              "menu_1_link": ""
+            },
+            "type": "menu"
+          },
+          "mega-menu-3-1": {
+            "settings": {
+              "image": "shopify:\/\/shop_images\/PumaZ2.jpg",
+              "promo_link": "shopify:\/\/collections\/clearance-shoes",
+              "button_style": "button--primary",
+              "bgr_color": "#eeeeee",
+              "button_bg_color": "#a0cc4a",
+              "richtext": "<p>Check every week for new clearance items and receive up to 50% off<\/p>",
+              "text_color": "#000000",
+              "button_label": "Shop Clearance"
+            },
+            "type": "featured_promo"
+          }
+        },
+        "type": "mega-menu-3",
+        "block_order": [
+          "1584567453557",
+          "1584567655031",
+          "1584567410165",
+          "mega-menu-3-1"
+        ]
+      },
+      "page-contact__main": {
+        "settings": {
+          "content_text": "<p>Contact us anytime at customerservice@golfvault.com. Our goal is to respond within 1 business day.<\/p><p><br\/>Our physical store is at <a href=\"https:\/\/www.google.com\/maps\/place\/Golf+Vault\/@43.4320116,-80.4474878,17z\/data=!3m1!4b1!4m5!3m4!1s0x882c09c485405b4b:0xef19d3e0da1613b1!8m2!3d43.4320116!4d-80.4452991\" target=\"_blank\" title=\"https:\/\/www.google.com\/maps\/place\/Golf+Vault\/@43.4320116,-80.4474878,17z\/data=!3m1!4b1!4m5!3m4!1s0x882c09c485405b4b:0xef19d3e0da1613b1!8m2!3d43.4320116!4d-80.4452991\"><strong>2631 Kingsway Drive<\/strong>,<\/a> Kitchener, ON. The store front is now open for shopping.  <\/p><p><\/p><p>For returns, please call 519-748-1444.<br\/><br\/><\/p>",
+          "text_alignment": "left",
+          "padding_top": 40,
+          "form_position": "right",
+          "custom_css": "",
+          "title": "",
+          "social_enable": true,
+          "css_class": "",
+          "background": "#465c6f",
+          "width": "standard",
+          "text_color": "#ffffff",
+          "content_image": "shopify:\/\/shop_images\/Screenshot_2022-04-08_095716.png",
+          "padding_bottom": 40
+        },
+        "blocks": {
+          "page-contact__main-2": {
+            "settings": {
+              "label": "Message",
+              "required": true
+            },
+            "type": "textarea"
+          },
+          "page-contact__main-0": {
+            "settings": {
+              "label": "Name",
+              "required": true
+            },
+            "type": "textfield"
+          },
+          "page-contact__main-1": {
+            "settings": {
+              "label": "Email"
+            },
+            "type": "email"
+          }
+        },
+        "type": "page-contact__main",
+        "block_order": [
+          "page-contact__main-1",
+          "page-contact__main-0",
+          "page-contact__main-2"
+        ]
+      },
+      "mega-menu-4": {
+        "settings": {
+          "mega_menu_text_color": "#404040",
+          "mega_menu_background_color": "#ffffff",
+          "custom_css": ".mega-menu{font-size: 14px;}",
+          "bottom_banner_bg": "#007ace",
+          "parent_link": "Clothing",
+          "enable_mega_menu_border": false,
+          "css_class": ".mega-menu",
+          "bottom_banner_text": "#efefef",
+          "size": "regular",
+          "mega_bottom_bar_text": "Add your deal, information or promotional text",
+          "show_mega_bottom_bar": false,
+          "mega_bottom_bar_icon": "",
+          "mega_bottom_bar_link": ""
+        },
+        "blocks": {
+          "1583251699915": {
+            "settings": {
+              "menu_1": "kids-clothing",
+              "menu_1_hidden": false,
+              "menu_1_link": "shopify:\/\/collections\/kids-clothing"
+            },
+            "type": "menu"
+          },
+          "mega-menu-4-1": {
+            "settings": {
+              "image": "shopify:\/\/shop_images\/puma-jackpot-5-pants-quarry-grey.jpg",
+              "promo_link": "shopify:\/\/collections\/clearance-clothing",
+              "button_style": "button--primary",
+              "bgr_color": "#eeeeee",
+              "button_bg_color": "#a0cc4a",
+              "richtext": "<p>Check every week for new clearance items and receive up to 50% off<\/p>",
+              "text_color": "#000000",
+              "button_label": "Shop Clearance"
+            },
+            "type": "featured_promo"
+          },
+          "mega-menu-4-0": {
+            "settings": {
+              "menu_1": "mens-clothing",
+              "menu_1_hidden": false,
+              "menu_1_link": "shopify:\/\/collections\/mens-clothing"
+            },
+            "type": "menu"
+          },
+          "1583251692505": {
+            "settings": {
+              "menu_1": "womens-clothing",
+              "menu_1_hidden": false,
+              "menu_1_link": "shopify:\/\/collections\/womens-clothing"
+            },
+            "type": "menu"
+          }
+        },
+        "type": "mega-menu-4",
+        "block_order": [
+          "mega-menu-4-0",
+          "1583251692505",
+          "1583251699915",
+          "mega-menu-4-1"
+        ]
+      },
+      "mega-menu-5": {
+        "settings": {
+          "mega_menu_text_color": "#404040",
+          "mega_menu_background_color": "#ffffff",
+          "custom_css": ".mega-menu{font-size: 14px;}",
+          "bottom_banner_bg": "#007ace",
+          "parent_link": "Bags & Carts",
+          "enable_mega_menu_border": false,
+          "css_class": "mega menu",
+          "bottom_banner_text": "#efefef",
+          "size": "regular",
+          "mega_bottom_bar_text": "Add your deal, information or promotional text",
+          "show_mega_bottom_bar": false,
+          "mega_bottom_bar_icon": "",
+          "mega_bottom_bar_link": ""
+        },
+        "blocks": {
+          "1583252549938": {
+            "settings": {
+              "menu_1": "carts",
+              "menu_1_hidden": false,
+              "menu_1_link": "shopify:\/\/collections\/carts"
+            },
+            "type": "menu"
+          },
+          "mega-menu-5-1": {
+            "settings": {
+              "image": "shopify:\/\/shop_images\/LEafs_Bag.jpg",
+              "promo_link": "shopify:\/\/collections\/clearance-bags",
+              "button_style": "button--primary",
+              "bgr_color": "#eeeeee",
+              "button_bg_color": "#a0cc4a",
+              "richtext": "<p>Check every week for new clearance items and receive up to 50% off<\/p>",
+              "text_color": "#000000",
+              "button_label": "Shop Clearance"
+            },
+            "type": "featured_promo"
+          },
+          "mega-menu-5-0": {
+            "settings": {
+              "menu_1": "golf-bags",
+              "menu_1_hidden": false,
+              "menu_1_link": "shopify:\/\/collections\/golf-bags"
+            },
+            "type": "menu"
+          },
+          "1583254531016": {
+            "settings": {
+              "menu_1": "travel-bags",
+              "menu_1_hidden": false,
+              "menu_1_link": "shopify:\/\/collections\/travel-bags"
+            },
+            "type": "menu"
+          }
+        },
+        "type": "mega-menu-5",
+        "block_order": [
+          "mega-menu-5-0",
+          "1583252549938",
+          "1583254531016",
+          "mega-menu-5-1"
+        ]
+      },
+      "mega-menu-6": {
+        "settings": {
+          "mega_menu_text_color": "#404040",
+          "mega_menu_background_color": "#ffffff",
+          "custom_css": ".mega-menu{font-size: 14px;}",
+          "bottom_banner_bg": "#007ace",
+          "parent_link": "Technology",
+          "enable_mega_menu_border": false,
+          "css_class": "",
+          "bottom_banner_text": "#efefef",
+          "size": "regular",
+          "mega_bottom_bar_text": "Add your deal, information or promotional text",
+          "show_mega_bottom_bar": false,
+          "mega_bottom_bar_icon": "",
+          "mega_bottom_bar_link": ""
+        },
+        "blocks": {
+          "mega-menu-6-5": {
+            "settings": {
+              "richtext_bottom": "",
+              "featured_product": "sure-shot-pinloc-5000ip-laser-rangefinder"
+            },
+            "type": "featured_product"
+          },
+          "1583252790415": {
+            "settings": {
+              "richtext_bottom": "",
+              "featured_product": "garmin-approach-r10-launch-monitor"
+            },
+            "type": "featured_product"
+          },
+          "mega-menu-6-1": {
+            "settings": {
+              "image": "shopify:\/\/shop_images\/SC200.jpg",
+              "promo_link": "shopify:\/\/collections\/clearance-technology",
+              "button_style": "button--primary",
+              "bgr_color": "#eeeeee",
+              "button_bg_color": "#a0cc4a",
+              "richtext": "<p>Check every week for new clearance items and receive up to 50% off<\/p>",
+              "text_color": "#000000",
+              "button_label": "Shop Clearance"
+            },
+            "type": "featured_promo"
+          },
+          "mega-menu-6-0": {
+            "settings": {
+              "menu_1": "technology",
+              "menu_1_hidden": false,
+              "menu_1_link": "shopify:\/\/collections\/technology"
+            },
+            "type": "menu"
+          }
+        },
+        "type": "mega-menu-6",
+        "block_order": [
+          "mega-menu-6-0",
+          "mega-menu-6-5",
+          "1583252790415",
+          "mega-menu-6-1"
+        ]
+      },
+      "mega-menu-7": {
+        "settings": {
+          "mega_menu_text_color": "#404040",
+          "mega_menu_background_color": "#ffffff",
+          "custom_css": ".mega-menu{font-size: 14px;}",
+          "bottom_banner_bg": "#007ace",
+          "parent_link": "Accessories",
+          "enable_mega_menu_border": false,
+          "css_class": "mega-menu",
+          "bottom_banner_text": "#efefef",
+          "size": "regular",
+          "mega_bottom_bar_text": "Add your deal, information or promotional text",
+          "show_mega_bottom_bar": false,
+          "mega_bottom_bar_icon": "",
+          "mega_bottom_bar_link": ""
+        },
+        "blocks": {
+          "1583253698885": {
+            "settings": {
+              "menu_1": "accessories-1",
+              "menu_1_hidden": true,
+              "menu_1_link": ""
+            },
+            "type": "menu"
+          },
+          "mega-menu-7-5": {
+            "settings": {
+              "richtext_bottom": "",
+              "featured_product": "callaway-weather-spann-mens-glove"
+            },
+            "type": "featured_product"
+          },
+          "mega-menu-7-1": {
+            "settings": {
+              "image": "shopify:\/\/shop_images\/towel.jpg",
+              "promo_link": "shopify:\/\/collections\/clearance-accessories",
+              "button_style": "button--primary",
+              "bgr_color": "#eeeeee",
+              "button_bg_color": "#a0cc4a",
+              "richtext": "<p>Check every week for new clearance items and receive up to 50% off<\/p>",
+              "text_color": "#000000",
+              "button_label": "Shop Clearance"
+            },
+            "type": "featured_promo"
+          },
+          "mega-menu-7-0": {
+            "settings": {
+              "menu_1": "accessories",
+              "menu_1_hidden": false,
+              "menu_1_link": "shopify:\/\/collections\/accessories"
+            },
+            "type": "menu"
+          }
+        },
+        "type": "mega-menu-7",
+        "block_order": [
+          "mega-menu-7-0",
+          "1583253698885",
+          "mega-menu-7-5",
+          "mega-menu-7-1"
+        ]
+      },
+      "mega-menu-8": {
+        "settings": {
+          "mega_menu_text_color": "#404040",
+          "mega_menu_background_color": "#ffffff",
+          "custom_css": ".mega-menu{font-size: 14px;}",
+          "bottom_banner_bg": "#007ace",
+          "parent_link": "Clearance",
+          "enable_mega_menu_border": false,
+          "css_class": "mega-menu",
+          "bottom_banner_text": "#efefef",
+          "size": "regular",
+          "mega_bottom_bar_text": "Add your deal, information or promotional text",
+          "show_mega_bottom_bar": false,
+          "mega_bottom_bar_icon": "",
+          "mega_bottom_bar_link": ""
+        },
+        "blocks": {
+          "mega-menu-8-5": {
+            "settings": {
+              "richtext_bottom": "",
+              "featured_product": "callaway-epic-speed-driver"
+            },
+            "type": "featured_product"
+          },
+          "mega-menu-8-1": {
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Cynthia_GV2.JPG",
+              "promo_link": "shopify:\/\/collections\/clearance",
+              "button_style": "button--primary",
+              "bgr_color": "#eeeeee",
+              "button_bg_color": "#a0cc4a",
+              "richtext": "<p>Check every week for new clearance items and receive up to 50% off<\/p>",
+              "text_color": "#000000",
+              "button_label": "Shop Clearance"
+            },
+            "type": "featured_promo"
+          },
+          "mega-menu-8-0": {
+            "settings": {
+              "menu_1": "clearance",
+              "menu_1_hidden": false,
+              "menu_1_link": "shopify:\/\/collections\/clearance"
+            },
+            "type": "menu"
+          },
+          "1583253779815": {
+            "settings": {
+              "menu_1": "clearance-1",
+              "menu_1_hidden": true,
+              "menu_1_link": ""
+            },
+            "type": "menu"
+          }
+        },
+        "type": "mega-menu-8",
+        "block_order": [
+          "mega-menu-8-0",
+          "1583253779815",
+          "mega-menu-8-5",
+          "mega-menu-8-1"
+        ]
+      },
+      "mega-menu-9": {
+        "settings": {
+          "mega_menu_text_color": "#404040",
+          "mega_menu_background_color": "#ffffff",
+          "custom_css": ".mega-menu{font-size: 14px;}",
+          "bottom_banner_bg": "#007ace",
+          "parent_link": "Simulator",
+          "enable_mega_menu_border": false,
+          "css_class": "",
+          "bottom_banner_text": "#efefef",
+          "size": "regular",
+          "mega_bottom_bar_text": "Add your deal, information or promotional text",
+          "show_mega_bottom_bar": false,
+          "mega_bottom_bar_icon": "",
+          "mega_bottom_bar_link": ""
+        },
+        "blocks": {
+          "mega-menu-9-5": {
+            "settings": {
+              "richtext_bottom": "",
+              "featured_product": "club-fittings"
+            },
+            "type": "featured_product"
+          },
+          "mega-menu-9-1": {
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Dave_GV.JPG",
+              "promo_link": "shopify:\/\/products\/golf-practice-sessions",
+              "button_style": "button--primary",
+              "bgr_color": "#eeeeee",
+              "button_bg_color": "#a0cc4a",
+              "richtext": "",
+              "text_color": "#000000",
+              "button_label": "Practice Sessions"
+            },
+            "type": "featured_promo"
+          },
+          "mega-menu-9-0": {
+            "settings": {
+              "menu_1": "in-the-simulator",
+              "menu_1_hidden": false,
+              "menu_1_link": ""
+            },
+            "type": "menu"
+          },
+          "1583254474745": {
+            "settings": {
+              "richtext_bottom": "",
+              "featured_product": "golf-lessons"
+            },
+            "type": "featured_product"
+          }
+        },
+        "type": "mega-menu-9",
+        "block_order": [
+          "mega-menu-9-0",
+          "mega-menu-9-5",
+          "1583254474745",
+          "mega-menu-9-1"
+        ]
+      },
+      "1664288710ef9c44e3": {
+        "settings": {
+          "preheading_color": "rgba(0,0,0,0)",
+          "preheading": "",
+          "heading_color": "rgba(0,0,0,0)",
+          "gradient": "rgba(0,0,0,0)",
+          "padding_top": 20,
+          "vertical_spacing": "medium",
+          "custom_css": "",
+          "title": "",
+          "heading_alignment": "center",
+          "animation": "none",
+          "subheading_color": "rgba(0,0,0,0)",
+          "css_class": "",
+          "padding_left": 0,
+          "background": "rgba(0,0,0,0)",
+          "width": "standard",
+          "gradient_rotation": 0,
+          "padding_bottom": 0,
+          "subheading": "<p><strong>Featured Brands<\/strong><\/p>",
+          "padding_right": 0
+        },
+        "type": "index__heading"
+      },
+      "3fc7ddf8-f346-4abe-b077-dd212abcbf57": {
+        "settings": {
+          "css_class": "",
+          "width": "standard",
+          "show_gutter": true,
+          "padding_top": 59,
+          "custom_css": "",
+          "padding_bottom": 20,
+          "animation": "none"
+        },
+        "blocks": {
+          "3fc7ddf8-f346-4abe-b077-dd212abcbf57-1667306870d3916dd4-0": {
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Canadas-Largest-Golf-Show.jpg",
+              "image_link": "https:\/\/www.torontogolfshow.com\/tickets\/",
+              "image_crop": "none"
+            },
+            "type": "image"
+          },
+          "3fc7ddf8-f346-4abe-b077-dd212abcbf57-1667306870d3916dd4-2": {
+            "settings": {
+              "button_style": "button--primary",
+              "background": "rgba(0,0,0,0)",
+              "link": "https:\/\/www.torontogolfshow.com\/tickets\/",
+              "text": "<p>We are proud to announce that Golf Vault is the Official Retail Partner of the this years Toronto Golf and Travel Show!<\/p><p>Join us Feb 3-5, 2023 at the International Centre (Hall 5) and kick off your golf season with great deals!<\/p><p>More info & giveaways to come!<\/p>",
+              "button_label": "Buy Your Tickets Now",
+              "text_color": "rgba(0,0,0,0)",
+              "vertical_position": "center",
+              "title": "Official Retail Partner",
+              "alignment": "left",
+              "heading_size": "large"
+            },
+            "type": "text"
+          }
+        },
+        "type": "index__image-with-text",
+        "block_order": [
+          "3fc7ddf8-f346-4abe-b077-dd212abcbf57-1667306870d3916dd4-0",
+          "3fc7ddf8-f346-4abe-b077-dd212abcbf57-1667306870d3916dd4-2"
+        ]
+      },
+      "cart__banner": {
+        "settings": {
+          "css_class": "",
+          "show_banner": false,
+          "image_darken": false,
+          "banner_height": "medium",
+          "subtitle": "Subheading",
+          "width": "wide",
+          "padding_top": 0,
+          "custom_css": "",
+          "padding_bottom": 0
+        },
+        "type": "cart__banner"
+      },
+      "page-faq__main": {
+        "settings": {
+          "css_class": "",
+          "width": "standard",
+          "padding_top": 40,
+          "custom_css": "",
+          "padding_bottom": 40
+        },
+        "type": "page-faq__main"
+      },
+      "collection__sidebar": {
+        "settings": {
+          "css_class": "",
+          "custom_css": "",
+          "show_sidebar": false
+        },
+        "blocks": {
+          "collection__sidebar-0": {
+            "settings": {
+              "promo_link": "",
+              "promo_text": "#000000",
+              "button_style": "button--primary",
+              "promo_background": "#eeeeee",
+              "richtext": "<p>Use this area for promotional information.<\/p>",
+              "button_label": "Shop now"
+            },
+            "type": "featured_promo"
+          },
+          "collection__sidebar-2": {
+            "settings": {
+              "text": "<p>Text area can be used for details about blog authors or general information.<\/p>",
+              "title": "Heading"
+            },
+            "type": "text"
+          },
+          "collection__sidebar-1": {
+            "settings": {
+              "menu": ""
+            },
+            "type": "menu"
+          }
+        },
+        "type": "collection__sidebar",
+        "block_order": [
+          "collection__sidebar-0",
+          "collection__sidebar-1",
+          "collection__sidebar-2"
+        ]
+      }
+    },
+    "product_hover_text_color": "#000000",
+    "show_announcement_bar": true,
+    "banner_heading_color": "#272727",
+    "notify_me_description": "<p>Notify me when this product is available:<\/p>",
+    "banner_text__font": "source_sans_pro_n4",
+    "header_background": "#ffffff",
+    "preheading_style": "none",
+    "quickshop_show_vendor": false,
+    "mobile_menu_opacity": 100,
+    "button_cart_text_color": "#fff",
+    "checkout_sidebar_background_color": "#fafafa",
+    "currency_format": "money_with_currency_format",
+    "mlvedaACS_positionLeft": "10px",
+    "mlvedaACS_defaultCurrency": "CAD",
+    "footer_text_color": "#ffffff",
+    "button_link_padding": "regular",
+    "size_chart": "",
+    "mlvedaACS_messageBackgroundColor": "inherit",
+    "logo_font_style": "none",
+    "mega_menu_2": true,
+    "mega_menu_1": true,
+    "subheading_size": 21,
+    "search_display_style": "popup",
+    "use_placeholders": false,
+    "mlvedaACS_position": "top_with_right",
+    "button_primary_text_color--highlight": "#ffffff",
+    "button_letter_spacing": 1,
+    "dropdown_font_size": 12,
+    "qty_box_style": "box",
+    "button_primary_bg_color_transparency": 100,
+    "quickshop_gallery_position": "left",
+    "quickshop_gallery_transition_styles": "slide",
+    "mlvedaACS_enable": true,
+    "blocks": {
+      "12120936241911852800": {
+        "settings": {
+          "position": "right"
+        },
+        "disabled": true,
+        "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/reviews_tab\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8"
+      },
+      "14060646107696862457": {
+        "settings": {
+        },
+        "disabled": true,
+        "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8"
+      }
+    },
+    "mlvedaACS_supportedCurrencies": "CAD USD EUR",
+    "button_cart_border_color--highlight": "rgba(0,0,0,0)",
+    "toggle_icon_style": "plus_and_minus",
+    "heading_letter_spacing": 0,
+    "show_multiple_currencies": false,
+    "mlvedaACS_currencyFormat": "money_with_currency_format",
+    "stickers_enabled": false,
+    "mlvedaACS_displayFlag": true,
+    "button_primary_bg_color_transparency--highlight": 100,
+    "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "flickr_link": "",
+    "button_cart_bg_color": "#a0cc4a",
+    "button_secondary_padding": "regular",
+    "mlvedaACS_autoSwitch": true,
+    "youtube_link": "",
+    "link_color": "#000000",
+    "checkout_header_image": "",
+    "og_image_fallback": "shopify:\/\/shop_images\/Golf_Vault_Logo_4b8c23c0-c868-4ec7-bb79-aa992c21ff2c.png",
+    "button_cart_border_radius": 2,
+    "search_heading_color": "#000",
+    "inventory_threshold": 10,
+    "quickshop_truncate_words_limit": 20,
+    "header_layout": "search_focus",
+    "logo_font_size": 20,
+    "display_savings": false,
+    "breadcrumb_size": "regular",
+    "mlvedaACS_isCustomized": true,
+    "border_color": "#d3d3d3",
+    "banner_sale": "#94b94a",
+    "product_hover_bg_color": "#ffffff",
+    "banner_text_letter_spacing": 0,
+    "display_ajax_quantity_box": false,
+    "collection_swatches_shape": "circle",
+    "sticker_shape": "square",
+    "mlvedaACS_borderLook": false,
+    "checkout_button_color": "#a0cc4a",
+    "heading_divider_style": "short",
+    "qty_icon_color": "#fff",
+    "social_media_share_style": "squared",
+    "form_button_style": "button--primary",
+    "display_vendor": false,
+    "facebook_link": "",
+    "houzz_link": "",
+    "checkout_input_background_color_mode": "white",
+    "mlvedaACS_textColor": "inherit",
+    "mlvedaACS_flagStyle": "circle",
+    "mlvedaACS_isMessageDisplay": true,
+    "cart_action": "reload_page",
+    "show_dropdown_shadow": true,
+    "sticker_position": "bottom-left",
+    "button_secondary_text_color": "#000000",
+    "limit_quantity": false,
+    "mobile_logo_width": 200,
+    "heading_divider_width": 2,
+    "qty_icon_hover_color": "#ddd",
+    "mlvedaACS_messageColor": "inherit",
+    "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "banner_text_size": 20,
+    "search_to_display": 5,
+    "button_link_text_color--highlight": "#ccc",
+    "button_cart_bg_color--highlight": "#94b94a",
+    "heading_divider_animation": "none",
+    "vimeo_link": "",
+    "snapchat_link": "",
+    "footer_layout": "classic",
+    "header_link_hover_color": "#94b94a",
+    "logo_menu_position": "left",
+    "banner_bestseller": "#f0d00e",
+    "button_link_underline_thickness": 1,
+    "footer_font_size": 14,
+    "regular_color": "#000000",
+    "thumbnail_hover_enabled": false,
+    "mlvedaACS_roundDecimal": false,
+    "button_primary_bg_color--highlight": "#68859e",
+    "dropdown_heading_font_size": 16,
+    "breadcrumb_capitalization": "none",
+    "banner_preorder": "#6e6e6f",
+    "disqus_enabled": false,
+    "button_cart_icon_position": "left",
+    "logo_mobile": "",
+    "behance_link": "",
+    "enable_shipping_calculator": false,
+    "button_primary_padding": "regular",
+    "qs_popup_color": "#fff",
+    "button_font_style": "uppercase",
+    "display_inventory_left": false,
+    "image_loading_style": "none",
+    "header_cart_badge_color": "#a0cc4a",
+    "pinterest_link": "",
+    "cart_background_color": "#fff",
+    "regular_font_size": 15,
+    "mlvedaACS_positionRight": "10px",
+    "content_for_index": [
+      "1557099047693",
+      "1582838451119",
+      "16498756719bd07036",
+      "9f45c63c-f4ca-4b74-86f2-32b6f96afd65",
+      "3fc7ddf8-f346-4abe-b077-dd212abcbf57",
+      "aa4c1985-2453-4ad4-8b3b-212ed553c72e",
+      "1649264894e8727438",
+      "1615582771624983a6",
+      "1615581787daf9f1aa",
+      "323cbac1-ed05-4a8e-a081-c6f8c06d1c7f",
+      "1664288710ef9c44e3",
+      "16642874402284b629"
+    ],
+    "button_cart_border_color": "rgba(0,0,0,0)",
+    "checkout_logo_position": "center",
+    "banner_heading__font": "source_sans_pro_n4",
+    "footer_border": "rgba(0,0,0,0)",
+    "mega_menu_10": false,
+    "logo_text": "#272727",
+    "checkout_logo_image": "shopify:\/\/shop_images\/logo_d066deaf-fd5f-4caf-9e5d-3a36f2d43ae8.png",
+    "banner_heading_size": 32,
+    "go_to_checkout": true,
+    "was_price_color": "#808080",
+    "button_link_text_color": "#a0cc4a",
+    "divider_color": "#000000",
+    "toggle_sidebar": false,
+    "mlvedaACS_positionBottom": "10px",
+    "checkout_error_color": "#e32c2b",
+    "swatch_style": "square",
+    "mlvedaACS_roundDecimalValue": 1,
+    "mlvedaACS_backgroundColor": "#ffffff",
+    "shipping_calculator_default_country": "United States",
+    "thumbnail_text_alignment": "center",
+    "display_product_quantity": true,
+    "tumblr_link": "",
+    "mlvedaACS_textHoverColor": "inherit",
+    "banner_heading_style": "none",
+    "favicon": "shopify:\/\/shop_images\/Favicon_Golf_Vault.png",
+    "button_secondary_bg_color_transparency--highlight": 100,
+    "sale_color": "#94b94a",
+    "button_primary_border_radius": 0,
+    "banner_comingsoon": "#585757",
+    "nav_letter_spacing": 1,
+    "mlvedaACS_hideDecimal": false,
+    "show_fixed_message": false,
+    "mlvedaACS_hoverBackgroundColor": "inherit",
+    "quickshop_show_price_savings": true,
+    "search_popup_bg": "#fff",
+    "mlvedaACS_borderLineColor": "inherit",
+    "dropdown_background_opacity": 100,
+    "dribbble_link": "",
+    "quickshop_truncate_words": false,
+    "dropdown_link_spacing": "medium",
+    "mobile_menu_link_color": "rgba(0,0,0,0)",
+    "enable_autocomplete": true
+  }
+}

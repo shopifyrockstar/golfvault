@@ -1,0 +1,66 @@
+{%- capture tabs -%}
+  {%- capture content -%}{%- endcapture -%}
+  35609^^Reviews^^{{ content | replace: '~', '&#126;' | replace: '^', '&#94;' }}^^0||||^^^^~~
+{%- endcapture -%}
+{%- assign tabs_array = tabs | strip | split: '~~' -%}
+{%- assign p_id_str = product.id | downcase -%}
+{%- for item in tabs_array -%}
+  {%- assign tab = item | split: '^^' -%}
+  {%- assign asn = tab[3] | split: '|' -%}
+  {%- assign h_t = false -%}
+  {%- assign p_ids = asn[0] | split: ',' -%}
+  {%- assign e_ids = tab[4] | split: ',' -%}
+  {%- unless tabs_order contains tab[0] -%}
+    {%- continue -%}
+  {%- endunless -%}
+  {%- if e_ids contains p_id_str -%}
+    {%- continue -%}
+  {%- endif -%}
+  {%- if asn[0] == '0' or asn[1] == '0' or p_ids contains p_id_str -%}
+    {%- assign h_t = true -%}
+  {%- endif -%}
+  {%- unless h_t -%}
+    {%- assign col_ids = asn[1] | split: ',' -%}
+    {%- for c in product.collections -%}
+      {% assign c_id = c.id | downcase %}
+      {%- if col_ids contains c_id %}
+        {%- assign h_t = true -%}
+        {%- break -%}
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endunless -%}
+  {%- unless h_t -%}
+    {%- assign tags = asn[2] | split: ',' -%}
+    {%- for t in tags -%}
+      {%- if product.tags contains t -%}
+        {%- assign h_t = true -%}
+        {%- break -%}
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endunless -%}
+  {%- unless h_t -%}
+    {%- if asn[3] -%}
+      {%- assign tps = asn[3] | split: ',' -%}
+      {%- if tps contains product.type -%}
+        {%- assign h_t = true -%}
+      {%- endif -%}
+    {%- endif -%}
+  {%- endunless -%}
+  {%- unless h_t -%}
+    {%- if asn[4] -%}
+      {%- assign vndr = asn[4] | split: ',' -%}
+      {%- if vndr contains product.vendor -%}
+        {%- assign h_t = true -%}
+      {%- endif -%}
+    {%- endif -%}
+  {%- endunless -%}
+  {%- if h_t -%}
+  {%- assign hndl = tab[1] | replace: '&amp;', '' | handleize -%}
+  <div id="station-tabs-data-{{ tab[0] }}" class="station-tabs-data-item" style="display:none;" data-position="{{ tab[5] | default: -1 }}">
+    <a id="st-link-{{ hndl }}" class="station-tabs-link" href="#{{ hndl }}"><span>{{ tab[1] }}</span></a>
+    <div id="st-{{ hndl }}" class="station-tabs-content">
+      <div class="station-tabs-content-inner">{{ tab[2] }}</div>
+    </div>
+  </div>
+  {%- endif -%}
+{%- endfor -%}
