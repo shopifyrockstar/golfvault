@@ -1,0 +1,44 @@
+.bold_option_set .bold_option_title{
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+}
+.bold_option_set .bold_option_element, .bold_option_set .bold_option_element select{
+    width: 100%;
+    display: block;
+}
+.two_box_img .secondary-images {
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+}
+.two_box_img .secondary-images .image-left, .two_box_img .secondary-images .image-right {
+    width: 49%;
+    float: left;
+    margin-right: 1%;
+    border: 1px solid;
+    height: 300px;
+}
+.two_box_img .secondary-images .image-left, .two_box_img .secondary-images .image-right {
+    position: relative;
+    width: calc(50% - 10px);
+    height: 0;
+    padding-top: calc(50% - 20px);
+    border: 1px solid #ccc;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.two_box_img .secondary-images .image-right span, .two_box_img .secondary-images .image-right img, .two_box_img .secondary-images .image-left span, .two_box_img .secondary-images .image-left img {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.two_box_img span {
+    font-weight: 500;
+    font-size: 17px;
+    color: #ccc;
+    text-transform: uppercase;
+}
