@@ -28,6 +28,7 @@
   <!-- Stylesheets for Flex "1.1.5" -->
   {{ 'styles.scss.css' | asset_url | stylesheet_tag }}
   {{ 'custom.scss.css' | asset_url | stylesheet_tag }}
+  {{ 'custom-style.css' | asset_url | stylesheet_tag }}
 
  {% comment %} {% if settings.show_multiple_currencies or shop.enabled_currencies.size > 1 %}
     <script type="text/javascript" src="/services/javascripts/currencies.js" ></script>
@@ -84,10 +85,9 @@
 <meta name="locale-bar--browsing-context-suggestions-url" content="{{ routes.browsing_context_suggestions_url }}">
 <meta name="locale-bar--current-language" content="{{ request.locale.iso_code }}">
 <meta name="locale-bar--current-currency" content="{{ cart.currency.iso_code }}">
-{%- render 'bold-options-hybrid' -%}
+
 
 {% if template == 'product' and product.metafields.inventory.ShappifyHidden or product.type contains '_HIDDEN_' %}<meta name='robots' content='noindex'>{% endif %}
-{%- render 'bold-common' -%}
   {% include 'social-meta-info' %}
   {% if collection.previous_product %}<link rel="prev" href="{{ collection.previous_product }}">{% endif %}
   {% if collection.next_product %}<link rel="next" href="{{ collection.next_product }}">{% endif %}
@@ -107,6 +107,26 @@ window.supported_currencies = "{{ settings.mlvedaACS_supportedCurrencies }}";
   
   
   {% render 'bookthatapp-widgets' %}
+
+<script>
+  var rh_hidden = [];
+  var lh_hidden = [];
+  {% if product.template_suffix == 'customizable' %}
+    {% if product.metafields.custom.options_to_be_hidden != '' %}
+      var text_rh = "{{ product.metafields.custom.options_to_be_hidden }}";
+      rh_hidden = text_rh.split(",");      
+    {% else %}
+      rh_hidden = [];
+    {% endif %}
+    {% if product.metafields.custom.lh_options_to_be_hidden != '' %}
+      var text_lh = "{{ product.metafields.custom.lh_options_to_be_hidden }}";
+      lh_hidden = text_lh.split(",");      
+    {% else %}
+      lh_hidden = [];
+    {% endif %}
+    
+  {% endif %}
+</script>
 </head>
 
 {% if template.name == 'index' %}

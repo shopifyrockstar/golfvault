@@ -1,0 +1,53 @@
+<div class="">
+    <ul class="bold_opt_1">
+    {% for block in section.blocks %}
+        <li data-img="{{ block.settings.image | img_url: '300x' }}" data-name="{{ block.settings.title }}"></li>
+    {% endfor %}
+    </ul>
+</div>
+{% schema %}
+
+{
+  "name": "Product",
+  "max_blocks": 10,
+  "class": "wood-shaft-section",
+  "settings": [
+  ],
+  "blocks": [
+    {
+      "type": "image_with_text",
+      "name": "Image with text",
+      "settings": [
+        {
+          "type": "header",
+          "content": "Image"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image",
+          "info": "300 x 300px recommended"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Upload images and titles"
+        }
+      ]
+    }
+  ],
+  "default": {
+    "settings": {
+    },
+    "blocks": [
+      {
+        "type": "image_with_text",
+        "settings": {
+        }
+      }
+    ]
+  }
+}
+
+{% endschema %}

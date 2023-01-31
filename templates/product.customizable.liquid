@@ -1,0 +1,79 @@
+{%- if product.metafields.inventory.ShappifyHidden == 'true' -%}{%- break -%}{%- endif -%}
+{% comment %}
+  Defaults to /sections/product-template.liquid, but default can be changed in Theme Settings > Layout > Product page default template
+{% endcomment %}
+
+{% if settings.product_layout == 'sections' %}
+  <div id="template-{{ template | replace: '.', '-' | handle }}" class="shopify-section product-page">
+     <section class="section__wrapper
+                    section
+                    is-width-wide
+                    ">
+
+      <div class="container">
+        {% section 'product__sidebar' %}
+        {% section 'product-sections__main' %}
+        {% section 'product__recommendations' %}
+      </div>
+
+    </section>
+  </div>
+
+{% elsif settings.product_layout == 'image_scroll' %}
+  <div id="template-{{ template | replace: '.', '-' | handle }}" class="shopify-section product-page">
+    <section class="section
+                    is-width-wide
+                    has-padding-top
+                    ">      
+      <div class="container">
+        {% section 'product-image-scroll__main' %}
+        {% section 'product__recommendations' %}
+      </div>
+    </section>
+  </div>
+
+{% else %}
+{% comment %} Product - classic (default) {% endcomment %}
+  <div id="template-{{ template | replace: '.', '-' | handle }}" class="shopify-section product-page section__wrapper" style="padding-top:10px">
+    <section class="section
+                    section--has-sidebar-option">
+      <div class="container">
+        {% section 'product__sidebar' %}
+        {% section 'product__main' %}
+        {% section 'image-for-wood-shaft' %}
+        {% section 'product__recommendations' %}
+      </div>
+    </section>
+  </div>
+{% endif %}
+
+<script text="text/javascript">
+  var _learnq = _learnq || [];
+
+  var item = {
+    Name: {{ product.title|json }},
+    ProductID: {{ product.id|json }},
+    Categories: {{ product.collections|map:'title'|json }},
+    ImageURL: "https:{{ product.featured_image.src|img_url:'grande' }}",
+    URL: "{{ shop.secure_url }}{{ product.url }}",
+    Brand: {{ product.vendor|json }},
+    Price: {{ product.price|money|json }},
+    CompareAtPrice: {{ product.compare_at_price_max|money|json }}
+  };
+
+  _learnq.push(['track', 'Viewed Product', item]);
+  _learnq.push(['trackViewedItem', {
+    Title: item.Name,
+    ItemId: item.ProductID,
+    Categories: item.Categories,
+    ImageUrl: item.ImageURL,
+    Url: item.URL,
+    Metadata: {
+      Brand: item.Brand,
+      Price: item.Price,
+      CompareAtPrice: item.CompareAtPrice
+    }
+  }]);
+</script>
+{% render 'judgeme_widgets', widget_type: 'judgeme_review_widget', concierge_install: true, auto_install: true, product: product %}
+<div data-rebuy-id="56785" data-rebuy-shopify-product-ids="{{ product.id }}"></div>

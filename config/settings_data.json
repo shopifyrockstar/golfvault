@@ -1810,6 +1810,79 @@
         },
         "type": "search__banner"
       },
+      "image-for-wood-shaft": {
+        "settings": {
+        },
+        "blocks": {
+          "aa63fbdd-43b9-4d17-ad74-03b60862acbe": {
+            "settings": {
+              "image": "shopify:\/\/shop_images\/ezgif.com-gif-maker-2.png",
+              "title": "Accra FX 2.0 140 M1"
+            },
+            "type": "image_with_text"
+          },
+          "image-for-wood-shaft-0": {
+            "settings": {
+              "image": "shopify:\/\/shop_images\/ezgif.com-gif-maker.png",
+              "title": "Accra FX 2.0 100F M1"
+            },
+            "type": "image_with_text"
+          },
+          "c0984556-bda9-49aa-b655-febfbb2ea4cd": {
+            "settings": {
+              "image": "shopify:\/\/shop_images\/ezgif.com-gif-maker-2.png",
+              "title": "Accra FX 2.0 140 M4"
+            },
+            "type": "image_with_text"
+          },
+          "b50df45a-5a22-4c86-b4f1-91f259a2e109": {
+            "settings": {
+              "image": "shopify:\/\/shop_images\/ezgif.com-gif-maker-2.png",
+              "title": "Accra FX 2.0 140 M2"
+            },
+            "type": "image_with_text"
+          },
+          "7204a164-8072-47c4-b3af-12c67ce45377": {
+            "settings": {
+              "image": "shopify:\/\/shop_images\/ezgif.com-gif-maker.png",
+              "title": "Accra FX 2.0 100F M3"
+            },
+            "type": "image_with_text"
+          },
+          "2b4676e7-5384-4918-93d8-693bb521cd4c": {
+            "settings": {
+              "image": "shopify:\/\/shop_images\/ezgif.com-gif-maker-2.png",
+              "title": "Accra FX 2.0 140 M3"
+            },
+            "type": "image_with_text"
+          },
+          "ef4a48b1-ea73-4ee4-b38f-f41f41d80382": {
+            "settings": {
+              "image": "shopify:\/\/shop_images\/ezgif.com-gif-maker.png",
+              "title": "Accra FX 2.0 100F M4"
+            },
+            "type": "image_with_text"
+          },
+          "8d8781f0-3c53-481a-aafc-98e903219989": {
+            "settings": {
+              "image": "shopify:\/\/shop_images\/ezgif.com-gif-maker.png",
+              "title": "Accra FX 2.0 100F M2"
+            },
+            "type": "image_with_text"
+          }
+        },
+        "type": "image-for-wood-shaft",
+        "block_order": [
+          "image-for-wood-shaft-0",
+          "8d8781f0-3c53-481a-aafc-98e903219989",
+          "7204a164-8072-47c4-b3af-12c67ce45377",
+          "ef4a48b1-ea73-4ee4-b38f-f41f41d80382",
+          "aa63fbdd-43b9-4d17-ad74-03b60862acbe",
+          "b50df45a-5a22-4c86-b4f1-91f259a2e109",
+          "2b4676e7-5384-4918-93d8-693bb521cd4c",
+          "c0984556-bda9-49aa-b655-febfbb2ea4cd"
+        ]
+      },
       "product__main": {
         "settings": {
           "display_vendor": false,
