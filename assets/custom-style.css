@@ -57,25 +57,75 @@
 }
 .additional-swatch-selector .spb-productoptionswatchwrapper{
     display: none;
-    margin-right: 5px;
+    margin-right: 15px;
 }
 .additional-swatch-selector .spb-productoptionswatchwrapper.active{
-    display: inline;    
+    display: inline-block;    
 }
 
-
+.custom-option .spb-productoptionswatch{
+    background: #fff !important;
+    box-shadow: 0 0 0 1px #2b2a27;
+    border-radius: 0;
+}
+.custom-option input:checked + .spb-productoptionswatch{
+    box-shadow: 0 0 0 3px #000 !important;
+}
+.custom-option select{
+    padding: 8px 10px;
+    width: 100%;
+    font-size: 16px;
+    letter-spacing: .05em;
+    line-height: 1.4;
+    -webkit-appearance: none;
+    appearance: none;
+    background-position: 100%;
+    background-image: url(//cdn.shopify.com/s/files/1/0531/4723/8593/t/9/assets/ico-select.svg);
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-color: transparent;
+    background-size: 11px;
+    padding-right: 28px;
+    text-indent: 0.01px;
+    text-overflow: "";
+    cursor: pointer;    
+    border: 1px solid #2b2a27;
+}
+.custom-option .spb-label-tooltip{
+    margin-bottom: 20px;
+}
+.custom-option label{
+    margin-right: 10px;   
+}
 
 /* composition css */
 .composition-wrapper label.spb-productoptionswatchwrapper{
   display: none;
-  margin-right: 5px; 
+  margin-right: 10px; 
+  margin-top: 10px;
 }
 .composition-wrapper .spb-productoptionswatchwrapper.active{
-  display: inline;    
+  display: inline-block;    
 }
 
 
+#rebuy-cart .rebuy-cart__flyout-items .rebuy-cart__flyout-item.property-key-composition-for-rh .rebuy-cart__flyout-item-quantity-widget .rebuy-cart__flyout-item-quantity-widget-button,
+#rebuy-cart .rebuy-cart__flyout-items .rebuy-cart__flyout-item.property-key-composition-for-lh .rebuy-cart__flyout-item-quantity-widget .rebuy-cart__flyout-item-quantity-widget-button{
+    display: none;
+}
 
 
+#rebuy-cart .rebuy-cart__flyout-items .rebuy-cart__flyout-item[class*="_io_parent_order_group"] .rebuy-cart__flyout-item-quantity-widget-button,
+#rebuy-cart .rebuy-cart__flyout-items .rebuy-cart__flyout-item[class*="_io_parent_order_group"] .rebuy-cart__flyout-item-remove{
+    display: none;
+}
 
+@media (max-width:798px){
+    .custom-option{
+        text-align: center;
+    }
+    .custom-option select{
+        color: black;
+    }
+}
 
