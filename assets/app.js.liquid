@@ -851,7 +851,7 @@ function openReplacement(method, url, async, user, password) {
             console.log("updated quantities is " + should_be_changed_quantity + "main id is "+ update_need_products_array);
           }
           //end getting main product id and composition count
-
+          
           //getting upcharge product id and pushing it to the array
           if (item.properties._io_parent_order_group){
             if ( upcharge_product_array.includes(item.variant_id) == false ){
